@@ -1,0 +1,13 @@
+﻿CaseKey,Group,N_CFs,Avg_CosDist,Avg_JaccardSim,DiversityLabel
+MiddleAged_Male_case1,MiddleAged_Male,4,0.2206,0.6441,Medium
+MiddleAged_Male_case2,MiddleAged_Male,4,0.1817,0.6873,Medium
+MiddleAged_Male_case3,MiddleAged_Male,4,0.0355,0.903,Low
+MiddleAged_Female_case1,MiddleAged_Female,4,0.1319,0.7778,Medium
+MiddleAged_Female_case2,MiddleAged_Female,4,0.4236,0.875,High
+MiddleAged_Female_case3,MiddleAged_Female,4,0.2716,0.6364,Medium
+Older_Male_case1,Older_Male,4,0.3598,0.9394,High
+Older_Male_case2,Older_Male,4,0.2742,0.8611,Medium
+Older_Male_case3,Older_Male,3,0.2903,0.8333,Medium
+Older_Female_case1,Older_Female,4,0.1449,0.7833,Medium
+Older_Female_case2,Older_Female,4,0.5662,0.8909,High
+Older_Female_case3,Older_Female,4,0.7251,0.8548,High

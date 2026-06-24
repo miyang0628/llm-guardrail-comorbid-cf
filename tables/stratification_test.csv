@@ -1,0 +1,5 @@
+﻿Group,AUC_Stratified,AUC_Pooled,AUC_Diff,CI_lo,CI_hi,Boot_p,McNemar_chi2,McNemar_p,Sig_Boot,Sig_McNemar
+MiddleAged_Male,0.7738,0.973,-0.1995,-0.2803,-0.1269,0.0,19.0125,0.0,Yes,Yes
+MiddleAged_Female,0.8995,0.9882,-0.0884,-0.1506,-0.0326,0.0,46.0225,0.0,Yes,Yes
+Older_Male,0.6728,0.9352,-0.2615,-0.3186,-0.2013,0.0,78.0813,0.0,Yes,Yes
+Older_Female,0.6953,0.9069,-0.212,-0.2601,-0.166,0.0,74.9268,0.0,Yes,Yes

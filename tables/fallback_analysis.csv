@@ -1,0 +1,5 @@
+﻿Group,N_tested,N_direct,N_fallback1,N_fallback2,N_fail,Direct_pct,Fallback_pct,Fail_pct,N_nondirect
+MiddleAged_Male,30,30,0,0,0,100.0,0.0,0.0,0
+MiddleAged_Female,30,30,0,0,0,100.0,0.0,0.0,0
+Older_Male,30,30,0,0,0,100.0,0.0,0.0,0
+Older_Female,30,29,1,0,0,96.67,3.33,0.0,1

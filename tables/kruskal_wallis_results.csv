@@ -1,0 +1,8 @@
+﻿Variable,H_statistic,p_value,Significant
+BMI,4.1282,0.247949,No
+Energy_kcal,9.6667,0.021623,Yes
+Sodium_mg,8.4359,0.037812,Yes
+Carb_g,6.5897,0.08619,No
+Sugar_g,2.7436,0.43287,No
+WaistCirc,4.3871,0.222581,No
+Weight,7.9231,0.047629,Yes

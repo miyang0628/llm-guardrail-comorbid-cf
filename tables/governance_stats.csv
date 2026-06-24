@@ -1,0 +1,10 @@
+﻿Test,Dimension,Pre_pct,Post_pct,Delta_pct,Statistic,p_value,Significant
+McNemar,G1_pass,89.36,100.0,10.64,0.0,0.0625,No
+McNemar,G2_pass,40.43,100.0,59.57,0.0,0.0,Yes
+McNemar,G3_pass,70.21,100.0,29.79,0.0,0.000122,Yes
+McNemar,G4_pass,74.47,100.0,25.53,0.0,0.000488,Yes
+Cochran's Q,G1–G4 (all),,,,inf,0.0,Yes
+Fisher's Exact (G2),G2 — MiddleAged_Male,41.67,100.0,58.33,,0.004577,Yes
+Fisher's Exact (G2),G2 — MiddleAged_Female,41.67,100.0,58.33,,0.004577,Yes
+Fisher's Exact (G2),G2 — Older_Male,33.33,100.0,66.67,,0.001346,Yes
+Fisher's Exact (G2),G2 — Older_Female,50.0,100.0,50.0,,0.01373,Yes

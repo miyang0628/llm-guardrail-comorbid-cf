@@ -1,0 +1,5 @@
+﻿Group,Brier_Class0,Brier_Class1,Brier_Class2,Brier_Class3,Brier_Mean
+MiddleAged_Male,0.2045,0.1587,0.1018,0.1232,0.1471
+MiddleAged_Female,0.1746,0.1066,0.0633,0.0349,0.0949
+Older_Male,0.1504,0.2002,0.1387,0.2225,0.178
+Older_Female,0.1789,0.2361,0.0959,0.2119,0.1807

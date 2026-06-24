@@ -1,0 +1,13 @@
+﻿CaseKey,Group,Case,AchievedClass,FallbackDepth,Status
+MiddleAged_Male_case1,MiddleAged_Male,1,0,0,success
+MiddleAged_Male_case2,MiddleAged_Male,2,0,0,success
+MiddleAged_Male_case3,MiddleAged_Male,3,0,0,success
+MiddleAged_Female_case1,MiddleAged_Female,1,0,0,success
+MiddleAged_Female_case2,MiddleAged_Female,2,0,0,success
+MiddleAged_Female_case3,MiddleAged_Female,3,0,0,success
+Older_Male_case1,Older_Male,1,0,0,success
+Older_Male_case2,Older_Male,2,0,0,success
+Older_Male_case3,Older_Male,3,0,0,success
+Older_Female_case1,Older_Female,1,0,0,success
+Older_Female_case2,Older_Female,2,0,0,success
+Older_Female_case3,Older_Female,3,0,0,success
