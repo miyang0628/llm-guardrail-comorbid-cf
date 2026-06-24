@@ -144,7 +144,7 @@ See `requirements.txt` for the full list. Key packages:
   title   = {LLM-Guided Counterfactual Explanation for Comorbid Chronic Disease Risk in Health Insurance},
   author  = {Yang, Munil and Chun, Heuiju},
   journal = {Communications for Statistical Applications and Methods},
-  year    = {2025},
+  year    = {2026},
   note    = {Under review}
 }
 ```
