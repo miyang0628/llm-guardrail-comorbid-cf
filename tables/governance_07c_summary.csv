@@ -1,0 +1,6 @@
+﻿Condition,G1,G2,G3,G4,range_respected_%,range_permits_viol_%
+PreGuardrail,93.8,35.4,62.5,62.5,100.0,
+LLM_only,91.5,40.4,68.1,51.1,100.0,100.0
+HardRule_only,87.2,46.8,57.4,66.0,100.0,100.0
+LLMHard_soft,91.5,40.4,63.8,48.9,100.0,100.0
+LLMHard_hard,100.0,100.0,100.0,56.5,100.0,100.0

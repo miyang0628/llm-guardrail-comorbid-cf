@@ -1,0 +1,10 @@
+﻿Policy,Stage,V_energy_%,V_conflict_%,V_bmiwt_%,n_CF
+primary,PureDiCE,4.2,33.3,8.3,48
+primary,soft,8.5,0.0,0.0,47
+primary,hard,0.0,0.0,0.0,47
+strict,PureDiCE,4.2,33.3,8.3,48
+strict,soft,0.0,0.0,0.0,38
+strict,hard,0.0,0.0,0.0,38
+widen,PureDiCE,4.2,33.3,8.3,48
+widen,soft,8.5,46.8,6.4,47
+widen,hard,0.0,0.0,0.0,47

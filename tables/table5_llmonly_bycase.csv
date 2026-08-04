@@ -1,0 +1,13 @@
+﻿CaseKey,Group,LLM_n_supplied,G1,G2,G3,G4
+MiddleAged_Male_case1,MiddleAged_Male,31,1,0,0,0
+MiddleAged_Male_case2,MiddleAged_Male,31,1,0,0,0
+MiddleAged_Male_case3,MiddleAged_Male,31,0,0,0,1
+MiddleAged_Female_case1,MiddleAged_Female,31,0,0,0,0
+MiddleAged_Female_case2,MiddleAged_Female,31,1,0,1,1
+MiddleAged_Female_case3,MiddleAged_Female,31,0,0,1,0
+Older_Male_case1,Older_Male,31,1,1,0,0
+Older_Male_case2,Older_Male,31,1,0,0,1
+Older_Male_case3,Older_Male,31,1,0,1,1
+Older_Female_case1,Older_Female,31,1,0,0,0
+Older_Female_case2,Older_Female,31,1,0,0,1
+Older_Female_case3,Older_Female,31,0,0,1,0

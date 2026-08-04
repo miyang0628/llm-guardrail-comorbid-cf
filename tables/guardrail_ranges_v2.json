@@ -1,0 +1,6554 @@
+{
+    "MiddleAged_Male_case1": {
+        "group": "MiddleAged_Male",
+        "case": 1,
+        "original_index": 3972,
+        "patient_profile": {
+            "BMI": 27.58719324418832,
+            "WaistCirc": 99.2,
+            "Weight": 84.1,
+            "Energy_kcal": 1934.5769516849248,
+            "Carb_g": 237.04875389804948,
+            "Sugar_g": 32.42192897766466,
+            "Sodium_mg": 2925.933968655645,
+            "Fat_g": 69.63835190062473,
+            "SaturatedFat_g": 20.09674821669056,
+            "Fiber_g": 19.82676051684543,
+            "Potassium_mg": 2472.394245485908,
+            "Protein_g": 80.53567250732318,
+            "ObesityStatus": 4.0,
+            "WeightChangeStatus": 3.0,
+            "WeightLossAmount": 8.0,
+            "WeightGainAmount": 1.0,
+            "DrinkingFrequency": 5.0,
+            "DrinkingAmount": 4.0,
+            "SmokingStatus": 3.0,
+            "VigorousActivity_Work": 2.0,
+            "VigorousActivity_Leisure": 2.0,
+            "ModerateActivity_Work": 2.0,
+            "WalkingActivity": 2.0,
+            "AerobicActivityRate": 0.0,
+            "BreakfastFrequency": 1.0,
+            "StressLevel": 3.0,
+            "StressAwarenessRate": 0.0,
+            "PersonalIncomeQuartile": 1.0,
+            "HouseholdIncomeQuartile": 2.0,
+            "EducationLevel": 3.0,
+            "HealthScreeningStatus": 1.0
+        },
+        "llm_reasoning": "{'CONFLICT_PREVENTION': 'No changes made to Sodium_mg, hence Carb_g and Sugar_g were not capped.', 'PHYSICAL_CONSISTENCY': 'All values for BMI, WaistCirc, and Weight moved downward from their current values for consistency.', 'ENERGY_FLOOR': 'Energy_kcal reduced while ensuring it meets the energy floor requirement.', 'SAFETY': 'All lower bounds are above 0 and adhere to safety guidelines.', 'DIVERSITY_HINT': 'Fat_g was allowed to vary to ensure structural pathway diversity.'}",
+        "llm_raw_strict": {
+            "BMI": [
+                23.8221,
+                27.5872
+            ],
+            "WaistCirc": [
+                84.32,
+                99.2
+            ],
+            "Weight": [
+                71.485,
+                84.1
+            ],
+            "Energy_kcal": [
+                1353.1949,
+                1934.577
+            ],
+            "Carb_g": [
+                0.0,
+                237.0488
+            ],
+            "Sugar_g": [
+                0.0,
+                32.4219
+            ],
+            "Sodium_mg": [
+                0.0,
+                2925.934
+            ],
+            "Fat_g": [
+                0.0,
+                69.6384
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                20.0967
+            ],
+            "Fiber_g": [
+                0.0,
+                19.8268
+            ],
+            "Potassium_mg": [
+                0.0,
+                2472.3942
+            ],
+            "Protein_g": [
+                0.0,
+                80.5357
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                8.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                2.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                5.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                4.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                3.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                9.0
+            ]
+        },
+        "llm_raw_lenient": {
+            "BMI": [
+                23.8221,
+                27.5872
+            ],
+            "WaistCirc": [
+                84.32,
+                99.2
+            ],
+            "Weight": [
+                71.485,
+                84.1
+            ],
+            "Energy_kcal": [
+                1353.1949,
+                1934.577
+            ],
+            "Carb_g": [
+                0.0,
+                237.0488
+            ],
+            "Sugar_g": [
+                0.0,
+                32.4219
+            ],
+            "Sodium_mg": [
+                0.0,
+                2925.934
+            ],
+            "Fat_g": [
+                0.0,
+                69.6384
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                20.0967
+            ],
+            "Fiber_g": [
+                0.0,
+                19.8268
+            ],
+            "Potassium_mg": [
+                0.0,
+                2472.3942
+            ],
+            "Protein_g": [
+                0.0,
+                80.5357
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                8.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                2.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                5.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                4.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                3.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                9.0
+            ]
+        },
+        "hardrule_ranges": {
+            "BMI": [
+                23.4491,
+                27.5872
+            ],
+            "WaistCirc": [
+                84.32,
+                99.2
+            ],
+            "Weight": [
+                71.485,
+                84.1
+            ],
+            "Energy_kcal": [
+                1354.2039,
+                1934.577
+            ],
+            "Carb_g": [
+                47.4098,
+                237.0488
+            ],
+            "Sugar_g": [
+                22.6954,
+                32.4219
+            ],
+            "Sodium_mg": [
+                1755.5604,
+                2633.3406
+            ],
+            "Fat_g": [
+                48.7468,
+                90.5299
+            ],
+            "SaturatedFat_g": [
+                14.0677,
+                26.1258
+            ],
+            "Fiber_g": [
+                5.948,
+                25.7748
+            ],
+            "Potassium_mg": [
+                1236.1971,
+                3214.1125
+            ],
+            "Protein_g": [
+                48.3214,
+                104.6964
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                2.1,
+                3.9
+            ],
+            "WeightLossAmount": [
+                5.6,
+                10.4
+            ],
+            "WeightGainAmount": [
+                0.7,
+                1.3
+            ],
+            "DrinkingFrequency": [
+                3.5,
+                6.5
+            ],
+            "DrinkingAmount": [
+                2.8,
+                5.2
+            ],
+            "SmokingStatus": [
+                2.1,
+                3.9
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.6
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "WalkingActivity": [
+                1.4,
+                2.6
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                0.7,
+                1.3
+            ],
+            "StressLevel": [
+                2.1,
+                3.9
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                0.7,
+                1.3
+            ],
+            "HouseholdIncomeQuartile": [
+                1.4,
+                2.6
+            ],
+            "EducationLevel": [
+                2.1,
+                3.9
+            ],
+            "HealthScreeningStatus": [
+                0.7,
+                1.3
+            ]
+        },
+        "final_ranges": {
+            "BMI": [
+                23.8221,
+                27.5872
+            ],
+            "WaistCirc": [
+                84.32,
+                99.2
+            ],
+            "Weight": [
+                71.485,
+                84.1
+            ],
+            "Energy_kcal": [
+                1354.2039,
+                1934.577
+            ],
+            "Carb_g": [
+                47.4098,
+                237.0488
+            ],
+            "Sugar_g": [
+                22.6954,
+                32.4219
+            ],
+            "Sodium_mg": [
+                1755.5604,
+                2633.3406
+            ],
+            "Fat_g": [
+                48.7468,
+                69.6384
+            ],
+            "SaturatedFat_g": [
+                14.0677,
+                20.0967
+            ],
+            "Fiber_g": [
+                5.948,
+                19.8268
+            ],
+            "Potassium_mg": [
+                1236.1971,
+                2472.3942
+            ],
+            "Protein_g": [
+                48.3214,
+                80.5357
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                2.1,
+                3.0
+            ],
+            "WeightLossAmount": [
+                5.6,
+                8.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                1.3
+            ],
+            "DrinkingFrequency": [
+                3.5,
+                5.0
+            ],
+            "DrinkingAmount": [
+                2.8,
+                4.0
+            ],
+            "SmokingStatus": [
+                2.1,
+                3.0
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.4,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                1.3
+            ],
+            "StressLevel": [
+                2.1,
+                3.9
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                1.3
+            ],
+            "HouseholdIncomeQuartile": [
+                1.4,
+                2.6
+            ],
+            "EducationLevel": [
+                2.1,
+                3.9
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                1.3
+            ]
+        },
+        "llm_n_strict": 31,
+        "llm_n_lenient": 31,
+        "llm_missing_strict": []
+    },
+    "MiddleAged_Male_case2": {
+        "group": "MiddleAged_Male",
+        "case": 2,
+        "original_index": 5762,
+        "patient_profile": {
+            "BMI": 26.99485225901265,
+            "WaistCirc": 90.3,
+            "Weight": 82.2,
+            "Energy_kcal": 1892.126695125916,
+            "Carb_g": 239.39017864098585,
+            "Sugar_g": 33.54932302346174,
+            "Sodium_mg": 4818.389019321911,
+            "Fat_g": 67.45236400975594,
+            "SaturatedFat_g": 27.86721091107613,
+            "Fiber_g": 33.51354336043407,
+            "Potassium_mg": 3971.27827896978,
+            "Protein_g": 79.79022810449639,
+            "ObesityStatus": 4.0,
+            "WeightChangeStatus": 1.0,
+            "WeightLossAmount": 8.0,
+            "WeightGainAmount": 8.0,
+            "DrinkingFrequency": 6.0,
+            "DrinkingAmount": 5.0,
+            "SmokingStatus": 3.0,
+            "VigorousActivity_Work": 2.0,
+            "VigorousActivity_Leisure": 2.0,
+            "ModerateActivity_Work": 1.0,
+            "WalkingActivity": 2.0,
+            "AerobicActivityRate": 1.0,
+            "BreakfastFrequency": 1.0,
+            "StressLevel": 2.0,
+            "StressAwarenessRate": 1.0,
+            "PersonalIncomeQuartile": 3.0,
+            "HouseholdIncomeQuartile": 4.0,
+            "EducationLevel": 2.0,
+            "HealthScreeningStatus": 2.0
+        },
+        "llm_reasoning": "{'Carb_g': 'Due to the requirement of conflict prevention, if Sodium_mg is reduced, Carb_g must be capped to prevent potential negative dietary implications.', 'Sugar_g': 'Similar to Carb_g, if Sodium_mg decreases, Sugar_g must be capped to align with conflict prevention guidelines.', 'BMI': 'The BMI, WaistCirc, and Weight must all move in the same direction, meaning if they decrease, they must do so uniformly within the specified range.', 'WaistCirc': 'WaistCirc must follow the same directional movement as BMI and Weight for physical consistency.', 'Weight': 'Weight must adhere to the condition that it can only decrease or remain the same within the bounds set by physical consistency.', 'Energy_kcal': 'Energy_kcal must be minimized but cannot drop below the maximum of 70% of the current value or 500 kcal to ensure adequate energy intake.', 'Fat_g': 'Fat_g can vary in both directions to support structural pathway diversity.'}",
+        "llm_raw_strict": {
+            "BMI": [
+                22.9496,
+                26.9949
+            ],
+            "WaistCirc": [
+                76.7555,
+                90.3
+            ],
+            "Weight": [
+                69.87,
+                82.2
+            ],
+            "Energy_kcal": [
+                1325.4887,
+                1892.1267
+            ],
+            "Carb_g": [
+                0.0,
+                239.3902
+            ],
+            "Sugar_g": [
+                0.0,
+                33.5493
+            ],
+            "Sodium_mg": [
+                0.0,
+                4818.389
+            ],
+            "Fat_g": [
+                0.0,
+                67.4524
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                27.8672
+            ],
+            "Fiber_g": [
+                0.0,
+                33.5135
+            ],
+            "Potassium_mg": [
+                0.0,
+                3971.2783
+            ],
+            "Protein_g": [
+                0.0,
+                79.7902
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                0.0,
+                8.0
+            ],
+            "WeightGainAmount": [
+                0.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                6.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                5.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                3.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                2.0
+            ]
+        },
+        "llm_raw_lenient": {
+            "BMI": [
+                22.9496,
+                26.9949
+            ],
+            "WaistCirc": [
+                76.7555,
+                90.3
+            ],
+            "Weight": [
+                69.87,
+                82.2
+            ],
+            "Energy_kcal": [
+                1325.4887,
+                1892.1267
+            ],
+            "Carb_g": [
+                0.0,
+                239.3902
+            ],
+            "Sugar_g": [
+                0.0,
+                33.5493
+            ],
+            "Sodium_mg": [
+                0.0,
+                4818.389
+            ],
+            "Fat_g": [
+                0.0,
+                67.4524
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                27.8672
+            ],
+            "Fiber_g": [
+                0.0,
+                33.5135
+            ],
+            "Potassium_mg": [
+                0.0,
+                3971.2783
+            ],
+            "Protein_g": [
+                0.0,
+                79.7902
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                0.0,
+                8.0
+            ],
+            "WeightGainAmount": [
+                0.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                6.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                5.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                3.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                2.0
+            ]
+        },
+        "hardrule_ranges": {
+            "BMI": [
+                22.9456,
+                26.9949
+            ],
+            "WaistCirc": [
+                76.755,
+                90.3
+            ],
+            "Weight": [
+                69.87,
+                82.2
+            ],
+            "Energy_kcal": [
+                1324.4887,
+                1892.1267
+            ],
+            "Carb_g": [
+                47.878,
+                239.3902
+            ],
+            "Sugar_g": [
+                23.4845,
+                33.5493
+            ],
+            "Sodium_mg": [
+                2891.0334,
+                4336.5501
+            ],
+            "Fat_g": [
+                47.2167,
+                87.6881
+            ],
+            "SaturatedFat_g": [
+                19.507,
+                36.2274
+            ],
+            "Fiber_g": [
+                10.0541,
+                43.5676
+            ],
+            "Potassium_mg": [
+                1985.6391,
+                5162.6618
+            ],
+            "Protein_g": [
+                47.8741,
+                103.7273
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                0.7,
+                1.3
+            ],
+            "WeightLossAmount": [
+                5.6,
+                10.4
+            ],
+            "WeightGainAmount": [
+                5.6,
+                10.4
+            ],
+            "DrinkingFrequency": [
+                4.2,
+                7.8
+            ],
+            "DrinkingAmount": [
+                3.5,
+                6.5
+            ],
+            "SmokingStatus": [
+                2.1,
+                3.9
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.6
+            ],
+            "ModerateActivity_Work": [
+                0.7,
+                1.3
+            ],
+            "WalkingActivity": [
+                1.4,
+                2.6
+            ],
+            "AerobicActivityRate": [
+                0.7,
+                1.3
+            ],
+            "BreakfastFrequency": [
+                0.7,
+                1.3
+            ],
+            "StressLevel": [
+                1.4,
+                2.6
+            ],
+            "StressAwarenessRate": [
+                0.7,
+                1.3
+            ],
+            "PersonalIncomeQuartile": [
+                2.1,
+                3.9
+            ],
+            "HouseholdIncomeQuartile": [
+                2.8,
+                5.2
+            ],
+            "EducationLevel": [
+                1.4,
+                2.6
+            ],
+            "HealthScreeningStatus": [
+                1.4,
+                2.6
+            ]
+        },
+        "final_ranges": {
+            "BMI": [
+                22.9496,
+                26.9949
+            ],
+            "WaistCirc": [
+                76.7555,
+                90.3
+            ],
+            "Weight": [
+                69.87,
+                82.2
+            ],
+            "Energy_kcal": [
+                1325.4887,
+                1892.1267
+            ],
+            "Carb_g": [
+                47.878,
+                239.3902
+            ],
+            "Sugar_g": [
+                23.4845,
+                33.5493
+            ],
+            "Sodium_mg": [
+                2891.0334,
+                4336.5501
+            ],
+            "Fat_g": [
+                47.2167,
+                67.4524
+            ],
+            "SaturatedFat_g": [
+                19.507,
+                27.8672
+            ],
+            "Fiber_g": [
+                10.0541,
+                33.5135
+            ],
+            "Potassium_mg": [
+                1985.6391,
+                3971.2783
+            ],
+            "Protein_g": [
+                47.8741,
+                79.7902
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                1.3
+            ],
+            "WeightLossAmount": [
+                5.6,
+                8.0
+            ],
+            "WeightGainAmount": [
+                5.6,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                4.2,
+                6.0
+            ],
+            "DrinkingAmount": [
+                3.5,
+                5.0
+            ],
+            "SmokingStatus": [
+                2.1,
+                3.0
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                1.3
+            ],
+            "WalkingActivity": [
+                1.4,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.7,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                1.3
+            ],
+            "StressLevel": [
+                1.4,
+                2.6
+            ],
+            "StressAwarenessRate": [
+                0.7,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                2.1,
+                3.9
+            ],
+            "HouseholdIncomeQuartile": [
+                2.8,
+                4.0
+            ],
+            "EducationLevel": [
+                1.4,
+                2.6
+            ],
+            "HealthScreeningStatus": [
+                1.4,
+                2.0
+            ]
+        },
+        "llm_n_strict": 31,
+        "llm_n_lenient": 31,
+        "llm_missing_strict": []
+    },
+    "MiddleAged_Male_case3": {
+        "group": "MiddleAged_Male",
+        "case": 3,
+        "original_index": 4265,
+        "patient_profile": {
+            "BMI": 25.03263309520331,
+            "WaistCirc": 91.7,
+            "Weight": 70.4,
+            "Energy_kcal": 1886.4014909927316,
+            "Carb_g": 231.74351499705008,
+            "Sugar_g": 15.715899614599396,
+            "Sodium_mg": 3780.282704029248,
+            "Fat_g": 65.576440556081,
+            "SaturatedFat_g": 17.809654496671648,
+            "Fiber_g": 27.95444419037351,
+            "Potassium_mg": 2746.2060507968936,
+            "Protein_g": 94.08103647109633,
+            "ObesityStatus": 4.0,
+            "WeightChangeStatus": 1.0,
+            "WeightLossAmount": 8.0,
+            "WeightGainAmount": 8.0,
+            "DrinkingFrequency": 5.0,
+            "DrinkingAmount": 5.0,
+            "SmokingStatus": 3.0,
+            "VigorousActivity_Work": 2.0,
+            "VigorousActivity_Leisure": 2.0,
+            "ModerateActivity_Work": 2.0,
+            "WalkingActivity": 1.0,
+            "AerobicActivityRate": 1.0,
+            "BreakfastFrequency": 1.0,
+            "StressLevel": 3.0,
+            "StressAwarenessRate": 0.0,
+            "PersonalIncomeQuartile": 2.0,
+            "HouseholdIncomeQuartile": 3.0,
+            "EducationLevel": 4.0,
+            "HealthScreeningStatus": 1.0
+        },
+        "llm_reasoning": "{'ConflictPrevention': 'Sodium_mg cannot be reduced while keeping Carb_g and Sugar_g constant. If Sodium_mg were to be lowered beyond its current value, Carb_g and Sugar_g would need to be capped accordingly, thus maintaining their value to avoid conflict.', 'PhysicalConsistency': 'When adjusting BMI, WaistCirc, and Weight, all must change in the same direction to maintain physical consistency across these metrics. Each of these is also bounded to a percentage of the current value (minimum of 85% of the current value).', 'EnergyFloor': 'Energy_kcal must not fall below 500 or below 70% of the current value to prevent undernutrition.', 'Safety': 'All lower bounds of variables must remain non-negative to comply with safety regulations.', 'DiversityHint': 'Fat_g can be adjusted in both directions to allow for structural pathway diversity within dietary intake.'}",
+        "llm_raw_strict": {
+            "BMI": [
+                21.29,
+                25.03
+            ],
+            "WaistCirc": [
+                77.95,
+                91.7
+            ],
+            "Weight": [
+                59.84,
+                70.4
+            ],
+            "Energy_kcal": [
+                500.0,
+                1886.4
+            ],
+            "Carb_g": [
+                0.0,
+                231.74
+            ],
+            "Sugar_g": [
+                0.0,
+                15.72
+            ],
+            "Sodium_mg": [
+                0.0,
+                3780.28
+            ],
+            "Fat_g": [
+                -10.0,
+                65.58
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                17.81
+            ],
+            "Fiber_g": [
+                0.0,
+                27.95
+            ],
+            "Potassium_mg": [
+                0.0,
+                2746.21
+            ],
+            "Protein_g": [
+                0.0,
+                94.08
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                8.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                6.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                5.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                3.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                2.0
+            ]
+        },
+        "llm_raw_lenient": {
+            "BMI": [
+                21.29,
+                25.03
+            ],
+            "WaistCirc": [
+                77.95,
+                91.7
+            ],
+            "Weight": [
+                59.84,
+                70.4
+            ],
+            "Energy_kcal": [
+                500.0,
+                1886.4
+            ],
+            "Carb_g": [
+                0.0,
+                231.74
+            ],
+            "Sugar_g": [
+                0.0,
+                15.72
+            ],
+            "Sodium_mg": [
+                0.0,
+                3780.28
+            ],
+            "Fat_g": [
+                -10.0,
+                65.58
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                17.81
+            ],
+            "Fiber_g": [
+                0.0,
+                27.95
+            ],
+            "Potassium_mg": [
+                0.0,
+                2746.21
+            ],
+            "Protein_g": [
+                0.0,
+                94.08
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                8.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                6.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                5.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                3.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                2.0
+            ]
+        },
+        "hardrule_ranges": {
+            "BMI": [
+                21.2777,
+                25.0326
+            ],
+            "WaistCirc": [
+                77.945,
+                91.7
+            ],
+            "Weight": [
+                59.84,
+                70.4
+            ],
+            "Energy_kcal": [
+                1320.481,
+                1886.4015
+            ],
+            "Carb_g": [
+                46.3487,
+                231.7435
+            ],
+            "Sugar_g": [
+                11.0011,
+                15.7159
+            ],
+            "Sodium_mg": [
+                2268.1696,
+                3402.2544
+            ],
+            "Fat_g": [
+                45.9035,
+                85.2494
+            ],
+            "SaturatedFat_g": [
+                12.4668,
+                23.1526
+            ],
+            "Fiber_g": [
+                8.3863,
+                36.3408
+            ],
+            "Potassium_mg": [
+                1373.103,
+                3570.0679
+            ],
+            "Protein_g": [
+                56.4486,
+                122.3053
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                0.7,
+                1.3
+            ],
+            "WeightLossAmount": [
+                5.6,
+                10.4
+            ],
+            "WeightGainAmount": [
+                5.6,
+                10.4
+            ],
+            "DrinkingFrequency": [
+                3.5,
+                6.5
+            ],
+            "DrinkingAmount": [
+                3.5,
+                6.5
+            ],
+            "SmokingStatus": [
+                2.1,
+                3.9
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.6
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "WalkingActivity": [
+                0.7,
+                1.3
+            ],
+            "AerobicActivityRate": [
+                0.7,
+                1.3
+            ],
+            "BreakfastFrequency": [
+                0.7,
+                1.3
+            ],
+            "StressLevel": [
+                2.1,
+                3.9
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.4,
+                2.6
+            ],
+            "HouseholdIncomeQuartile": [
+                2.1,
+                3.9
+            ],
+            "EducationLevel": [
+                2.8,
+                5.2
+            ],
+            "HealthScreeningStatus": [
+                0.7,
+                1.3
+            ]
+        },
+        "final_ranges": {
+            "BMI": [
+                21.29,
+                25.03
+            ],
+            "WaistCirc": [
+                77.95,
+                91.7
+            ],
+            "Weight": [
+                59.84,
+                70.4
+            ],
+            "Energy_kcal": [
+                1320.481,
+                1886.4
+            ],
+            "Carb_g": [
+                46.3487,
+                231.74
+            ],
+            "Sugar_g": [
+                11.0011,
+                15.7159
+            ],
+            "Sodium_mg": [
+                2268.1696,
+                3402.2544
+            ],
+            "Fat_g": [
+                45.9035,
+                65.58
+            ],
+            "SaturatedFat_g": [
+                12.4668,
+                17.81
+            ],
+            "Fiber_g": [
+                8.3863,
+                27.95
+            ],
+            "Potassium_mg": [
+                1373.103,
+                2746.21
+            ],
+            "Protein_g": [
+                56.4486,
+                94.08
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                1.3
+            ],
+            "WeightLossAmount": [
+                5.6,
+                8.0
+            ],
+            "WeightGainAmount": [
+                5.6,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                3.5,
+                6.0
+            ],
+            "DrinkingAmount": [
+                3.5,
+                5.0
+            ],
+            "SmokingStatus": [
+                2.1,
+                3.0
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                1.3
+            ],
+            "AerobicActivityRate": [
+                0.7,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                1.3
+            ],
+            "StressLevel": [
+                2.1,
+                3.9
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.4,
+                2.6
+            ],
+            "HouseholdIncomeQuartile": [
+                2.1,
+                3.9
+            ],
+            "EducationLevel": [
+                2.8,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                1.3
+            ]
+        },
+        "llm_n_strict": 31,
+        "llm_n_lenient": 31,
+        "llm_missing_strict": []
+    },
+    "MiddleAged_Female_case1": {
+        "group": "MiddleAged_Female",
+        "case": 1,
+        "original_index": 5903,
+        "patient_profile": {
+            "BMI": 27.260770861791705,
+            "WaistCirc": 85.5,
+            "Weight": 64.4,
+            "Energy_kcal": 1476.8217431301014,
+            "Carb_g": 276.98169544210725,
+            "Sugar_g": 14.034018070960192,
+            "Sodium_mg": 2521.5209345825983,
+            "Fat_g": 16.206380951487922,
+            "SaturatedFat_g": 3.454947289067049,
+            "Fiber_g": 30.22930925581157,
+            "Potassium_mg": 3284.8979156329915,
+            "Protein_g": 60.24241776648125,
+            "ObesityStatus": 4.0,
+            "WeightChangeStatus": 2.0,
+            "WeightLossAmount": 1.0,
+            "WeightGainAmount": 8.0,
+            "DrinkingFrequency": 8.0,
+            "DrinkingAmount": 8.0,
+            "SmokingStatus": 8.0,
+            "VigorousActivity_Work": 2.0,
+            "VigorousActivity_Leisure": 2.0,
+            "ModerateActivity_Work": 2.0,
+            "WalkingActivity": 2.0,
+            "AerobicActivityRate": 0.0,
+            "BreakfastFrequency": 1.0,
+            "StressLevel": 4.0,
+            "StressAwarenessRate": 0.0,
+            "PersonalIncomeQuartile": 1.0,
+            "HouseholdIncomeQuartile": 2.0,
+            "EducationLevel": 4.0,
+            "HealthScreeningStatus": 2.0
+        },
+        "llm_reasoning": "{'Carb_g': 'To maintain safe sodium levels, Carb_g can only decrease or remain stable if Sodium_mg is reduced, capped at its current value.', 'Sugar_g': 'Similar to Carb_g, Sugar_g must remain stable or decrease if Sodium_mg is lowered, capped at its current value.', 'BMI': 'BMI must decrease if WaistCirc and Weight are to comply with physical consistency. All three metrics should move together in the same direction.', 'WaistCirc': 'Similarly, WaistCirc must decrease alongside BMI and Weight for consistency.', 'Weight': 'Weight should also decrease in line with BMI and WaistCirc for physical consistency.', 'Energy_kcal': 'Energy_kcal must remain above the 500 kcal floor and cannot drop below 70% of current intake.', 'Fat_g': 'Fat_g can vary in both positive and negative directions to allow structural pathway diversity without safety concerns.'}",
+        "llm_raw_strict": {
+            "BMI": [
+                22.9897,
+                27.2608
+            ],
+            "WaistCirc": [
+                72.675,
+                85.5
+            ],
+            "Weight": [
+                54.74,
+                64.4
+            ],
+            "Energy_kcal": [
+                1033.7743,
+                1476.8217
+            ],
+            "Carb_g": [
+                0.0,
+                276.9817
+            ],
+            "Sugar_g": [
+                0.0,
+                14.034
+            ],
+            "Sodium_mg": [
+                0.0,
+                2521.5209
+            ],
+            "Fat_g": [
+                0.0,
+                16.2064
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                3.4549
+            ],
+            "Fiber_g": [
+                0.0,
+                30.2293
+            ],
+            "Potassium_mg": [
+                0.0,
+                3284.8979
+            ],
+            "Protein_g": [
+                0.0,
+                60.2424
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                1.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                8.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                8.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                2.0
+            ]
+        },
+        "llm_raw_lenient": {
+            "BMI": [
+                22.9897,
+                27.2608
+            ],
+            "WaistCirc": [
+                72.675,
+                85.5
+            ],
+            "Weight": [
+                54.74,
+                64.4
+            ],
+            "Energy_kcal": [
+                1033.7743,
+                1476.8217
+            ],
+            "Carb_g": [
+                0.0,
+                276.9817
+            ],
+            "Sugar_g": [
+                0.0,
+                14.034
+            ],
+            "Sodium_mg": [
+                0.0,
+                2521.5209
+            ],
+            "Fat_g": [
+                0.0,
+                16.2064
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                3.4549
+            ],
+            "Fiber_g": [
+                0.0,
+                30.2293
+            ],
+            "Potassium_mg": [
+                0.0,
+                3284.8979
+            ],
+            "Protein_g": [
+                0.0,
+                60.2424
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                1.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                8.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                8.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                2.0
+            ]
+        },
+        "hardrule_ranges": {
+            "BMI": [
+                23.1717,
+                27.2608
+            ],
+            "WaistCirc": [
+                72.675,
+                85.5
+            ],
+            "Weight": [
+                54.74,
+                64.4
+            ],
+            "Energy_kcal": [
+                1033.7752,
+                1476.8217
+            ],
+            "Carb_g": [
+                55.3963,
+                276.9817
+            ],
+            "Sugar_g": [
+                9.8238,
+                14.034
+            ],
+            "Sodium_mg": [
+                1512.9126,
+                2269.3688
+            ],
+            "Fat_g": [
+                11.3445,
+                21.0683
+            ],
+            "SaturatedFat_g": [
+                2.4185,
+                4.4914
+            ],
+            "Fiber_g": [
+                9.0688,
+                39.2981
+            ],
+            "Potassium_mg": [
+                1642.449,
+                4270.3673
+            ],
+            "Protein_g": [
+                36.1455,
+                78.3151
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                1.4,
+                2.6
+            ],
+            "WeightLossAmount": [
+                0.7,
+                1.3
+            ],
+            "WeightGainAmount": [
+                5.6,
+                10.4
+            ],
+            "DrinkingFrequency": [
+                5.6,
+                10.4
+            ],
+            "DrinkingAmount": [
+                5.6,
+                10.4
+            ],
+            "SmokingStatus": [
+                5.6,
+                10.4
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.6
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "WalkingActivity": [
+                1.4,
+                2.6
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                0.7,
+                1.3
+            ],
+            "StressLevel": [
+                2.8,
+                5.2
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                0.7,
+                1.3
+            ],
+            "HouseholdIncomeQuartile": [
+                1.4,
+                2.6
+            ],
+            "EducationLevel": [
+                2.8,
+                5.2
+            ],
+            "HealthScreeningStatus": [
+                1.4,
+                2.6
+            ]
+        },
+        "final_ranges": {
+            "BMI": [
+                23.1717,
+                27.2608
+            ],
+            "WaistCirc": [
+                72.675,
+                85.5
+            ],
+            "Weight": [
+                54.74,
+                64.4
+            ],
+            "Energy_kcal": [
+                1033.7752,
+                1476.8217
+            ],
+            "Carb_g": [
+                55.3963,
+                276.9817
+            ],
+            "Sugar_g": [
+                9.8238,
+                14.034
+            ],
+            "Sodium_mg": [
+                1512.9126,
+                2269.3688
+            ],
+            "Fat_g": [
+                11.3445,
+                16.2064
+            ],
+            "SaturatedFat_g": [
+                2.4185,
+                3.4549
+            ],
+            "Fiber_g": [
+                9.0688,
+                30.2293
+            ],
+            "Potassium_mg": [
+                1642.449,
+                3284.8979
+            ],
+            "Protein_g": [
+                36.1455,
+                60.2424
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                1.4,
+                2.6
+            ],
+            "WeightLossAmount": [
+                1.0,
+                1.0
+            ],
+            "WeightGainAmount": [
+                5.6,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                5.6,
+                8.0
+            ],
+            "DrinkingAmount": [
+                5.6,
+                8.0
+            ],
+            "SmokingStatus": [
+                5.6,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.4,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                1.3
+            ],
+            "StressLevel": [
+                2.8,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                1.3
+            ],
+            "HouseholdIncomeQuartile": [
+                1.4,
+                2.6
+            ],
+            "EducationLevel": [
+                2.8,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.4,
+                2.0
+            ]
+        },
+        "llm_n_strict": 31,
+        "llm_n_lenient": 31,
+        "llm_missing_strict": []
+    },
+    "MiddleAged_Female_case2": {
+        "group": "MiddleAged_Female",
+        "case": 2,
+        "original_index": 1561,
+        "patient_profile": {
+            "BMI": 26.68386892739831,
+            "WaistCirc": 90.6,
+            "Weight": 59.4,
+            "Energy_kcal": 1457.975820307378,
+            "Carb_g": 235.04482582033293,
+            "Sugar_g": 76.35764294785014,
+            "Sodium_mg": 2086.6166078386987,
+            "Fat_g": 38.02816674705672,
+            "SaturatedFat_g": 9.768693090275717,
+            "Fiber_g": 30.61953385567003,
+            "Potassium_mg": 3268.2602202808403,
+            "Protein_g": 50.16210147184625,
+            "ObesityStatus": 4.0,
+            "WeightChangeStatus": 1.0,
+            "WeightLossAmount": 8.0,
+            "WeightGainAmount": 8.0,
+            "DrinkingFrequency": 2.0,
+            "DrinkingAmount": 1.0,
+            "SmokingStatus": 8.0,
+            "VigorousActivity_Work": 2.0,
+            "VigorousActivity_Leisure": 2.0,
+            "ModerateActivity_Work": 2.0,
+            "WalkingActivity": 1.0,
+            "AerobicActivityRate": 1.0,
+            "BreakfastFrequency": 1.0,
+            "StressLevel": 4.0,
+            "StressAwarenessRate": 0.0,
+            "PersonalIncomeQuartile": 3.0,
+            "HouseholdIncomeQuartile": 4.0,
+            "EducationLevel": 3.0,
+            "HealthScreeningStatus": 1.0
+        },
+        "llm_reasoning": "{'Carb_g': 'Under the conflict prevention principle, since Sodium_mg is reduced, Carb_g must be capped at its current value to maintain dietary balance.', 'Sugar_g': 'Similarly, Sugar_g must also be capped due to the reduction in Sodium_mg.', 'BMI, WaistCirc, Weight': 'These variables must move together in the same direction. Therefore, adjustments will be made based on their defined lower bounds.', 'Energy_kcal': 'This must be adjusted to ensure it remains above the defined energy floor.', 'Fat_g': 'Fat_g can vary positively or negatively to encourage dietary diversity.'}",
+        "llm_raw_strict": {
+            "BMI": [
+                22.6883,
+                26.6839
+            ],
+            "WaistCirc": [
+                76.51,
+                90.6
+            ],
+            "Weight": [
+                50.469,
+                59.4
+            ],
+            "Energy_kcal": [
+                1020.5841,
+                1457.9758
+            ],
+            "Carb_g": [
+                0.0,
+                235.0448
+            ],
+            "Sugar_g": [
+                0.0,
+                76.3576
+            ],
+            "Sodium_mg": [
+                0.0,
+                2086.6166
+            ],
+            "Fat_g": [
+                20.0282,
+                38.0282
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                9.7687
+            ],
+            "Fiber_g": [
+                0.0,
+                30.6195
+            ],
+            "Potassium_mg": [
+                0.0,
+                3268.2602
+            ],
+            "Protein_g": [
+                0.0,
+                50.1621
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                8.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                6.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                5.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                2.0
+            ]
+        },
+        "llm_raw_lenient": {
+            "BMI": [
+                22.6883,
+                26.6839
+            ],
+            "WaistCirc": [
+                76.51,
+                90.6
+            ],
+            "Weight": [
+                50.469,
+                59.4
+            ],
+            "Energy_kcal": [
+                1020.5841,
+                1457.9758
+            ],
+            "Carb_g": [
+                0.0,
+                235.0448
+            ],
+            "Sugar_g": [
+                0.0,
+                76.3576
+            ],
+            "Sodium_mg": [
+                0.0,
+                2086.6166
+            ],
+            "Fat_g": [
+                20.0282,
+                38.0282
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                9.7687
+            ],
+            "Fiber_g": [
+                0.0,
+                30.6195
+            ],
+            "Potassium_mg": [
+                0.0,
+                3268.2602
+            ],
+            "Protein_g": [
+                0.0,
+                50.1621
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                8.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                6.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                5.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                2.0
+            ]
+        },
+        "hardrule_ranges": {
+            "BMI": [
+                22.6813,
+                26.6839
+            ],
+            "WaistCirc": [
+                77.01,
+                90.6
+            ],
+            "Weight": [
+                50.49,
+                59.4
+            ],
+            "Energy_kcal": [
+                1020.5831,
+                1457.9758
+            ],
+            "Carb_g": [
+                47.009,
+                235.0448
+            ],
+            "Sugar_g": [
+                53.4504,
+                76.3576
+            ],
+            "Sodium_mg": [
+                1251.97,
+                1877.9549
+            ],
+            "Fat_g": [
+                26.6197,
+                49.4366
+            ],
+            "SaturatedFat_g": [
+                6.8381,
+                12.6993
+            ],
+            "Fiber_g": [
+                9.1859,
+                39.8054
+            ],
+            "Potassium_mg": [
+                1634.1301,
+                4248.7383
+            ],
+            "Protein_g": [
+                30.0973,
+                65.2107
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                0.7,
+                1.3
+            ],
+            "WeightLossAmount": [
+                5.6,
+                10.4
+            ],
+            "WeightGainAmount": [
+                5.6,
+                10.4
+            ],
+            "DrinkingFrequency": [
+                1.4,
+                2.6
+            ],
+            "DrinkingAmount": [
+                0.7,
+                1.3
+            ],
+            "SmokingStatus": [
+                5.6,
+                10.4
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.6
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "WalkingActivity": [
+                0.7,
+                1.3
+            ],
+            "AerobicActivityRate": [
+                0.7,
+                1.3
+            ],
+            "BreakfastFrequency": [
+                0.7,
+                1.3
+            ],
+            "StressLevel": [
+                2.8,
+                5.2
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                2.1,
+                3.9
+            ],
+            "HouseholdIncomeQuartile": [
+                2.8,
+                5.2
+            ],
+            "EducationLevel": [
+                2.1,
+                3.9
+            ],
+            "HealthScreeningStatus": [
+                0.7,
+                1.3
+            ]
+        },
+        "final_ranges": {
+            "BMI": [
+                22.6883,
+                26.6839
+            ],
+            "WaistCirc": [
+                77.01,
+                90.6
+            ],
+            "Weight": [
+                50.49,
+                59.4
+            ],
+            "Energy_kcal": [
+                1020.5841,
+                1457.9758
+            ],
+            "Carb_g": [
+                47.009,
+                235.0448
+            ],
+            "Sugar_g": [
+                53.4504,
+                76.3576
+            ],
+            "Sodium_mg": [
+                1251.97,
+                1877.9549
+            ],
+            "Fat_g": [
+                26.6197,
+                38.0282
+            ],
+            "SaturatedFat_g": [
+                6.8381,
+                9.7687
+            ],
+            "Fiber_g": [
+                9.1859,
+                30.6195
+            ],
+            "Potassium_mg": [
+                1634.1301,
+                3268.2602
+            ],
+            "Protein_g": [
+                30.0973,
+                50.1621
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                1.3
+            ],
+            "WeightLossAmount": [
+                5.6,
+                8.0
+            ],
+            "WeightGainAmount": [
+                5.6,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.4,
+                2.6
+            ],
+            "DrinkingAmount": [
+                1.0,
+                1.3
+            ],
+            "SmokingStatus": [
+                5.6,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                1.3
+            ],
+            "AerobicActivityRate": [
+                0.7,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                1.3
+            ],
+            "StressLevel": [
+                2.8,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                2.1,
+                3.9
+            ],
+            "HouseholdIncomeQuartile": [
+                2.8,
+                4.0
+            ],
+            "EducationLevel": [
+                2.1,
+                3.9
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                1.3
+            ]
+        },
+        "llm_n_strict": 31,
+        "llm_n_lenient": 31,
+        "llm_missing_strict": []
+    },
+    "MiddleAged_Female_case3": {
+        "group": "MiddleAged_Female",
+        "case": 3,
+        "original_index": 5323,
+        "patient_profile": {
+            "BMI": 26.66751407237417,
+            "WaistCirc": 84.8,
+            "Weight": 62.1,
+            "Energy_kcal": 1484.8420281416998,
+            "Carb_g": 214.6201403440997,
+            "Sugar_g": 41.61512985678249,
+            "Sodium_mg": 1773.910607168088,
+            "Fat_g": 49.265708330974455,
+            "SaturatedFat_g": 16.091357564918365,
+            "Fiber_g": 28.75835780791087,
+            "Potassium_mg": 2331.832325407448,
+            "Protein_g": 51.73403404970141,
+            "ObesityStatus": 4.0,
+            "WeightChangeStatus": 3.0,
+            "WeightLossAmount": 8.0,
+            "WeightGainAmount": 1.0,
+            "DrinkingFrequency": 2.0,
+            "DrinkingAmount": 1.0,
+            "SmokingStatus": 8.0,
+            "VigorousActivity_Work": 2.0,
+            "VigorousActivity_Leisure": 2.0,
+            "ModerateActivity_Work": 2.0,
+            "WalkingActivity": 1.0,
+            "AerobicActivityRate": 1.0,
+            "BreakfastFrequency": 1.0,
+            "StressLevel": 3.0,
+            "StressAwarenessRate": 0.0,
+            "PersonalIncomeQuartile": 4.0,
+            "HouseholdIncomeQuartile": 4.0,
+            "EducationLevel": 1.0,
+            "HealthScreeningStatus": 1.0
+        },
+        "llm_reasoning": "{'Energy_kcal': 'The energy intake cannot fall below 70% of the current value, ensuring adequate caloric intake while allowing flexibility.', 'BMI_WaistCirc_Weight': 'BMI, WaistCirc, and Weight must consistently move in the same direction due to their interrelated nature, maintaining their respective proportions.', 'Sodium_mg_Carb_g_Sugar_g': 'If Sodium_mg is reduced, Carb_g and Sugar_g cannot exceed their original values to prevent adverse effects associated with sodium reduction.', 'General_Safety': 'All lower bounds for nutritional intake and anthropometric measures must remain at or above zero to ensure safety.'}",
+        "llm_raw_strict": {
+            "BMI": [
+                22.6744,
+                26.6675
+            ],
+            "WaistCirc": [
+                72.08,
+                84.8
+            ],
+            "Weight": [
+                52.785,
+                62.1
+            ],
+            "Energy_kcal": [
+                1038.3894,
+                1484.842
+            ],
+            "Carb_g": [
+                0.0,
+                214.6201
+            ],
+            "Sugar_g": [
+                0.0,
+                41.6151
+            ],
+            "Sodium_mg": [
+                0.0,
+                1773.9106
+            ],
+            "Fat_g": [
+                -0.0,
+                49.2657
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                16.0914
+            ],
+            "Fiber_g": [
+                0.0,
+                28.7584
+            ],
+            "Potassium_mg": [
+                0.0,
+                2331.8323
+            ],
+            "Protein_g": [
+                0.0,
+                51.734
+            ],
+            "ObesityStatus": [
+                1.0,
+                4.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                8.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                1.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                2.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                1.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                1.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                1.0
+            ],
+            "StressLevel": [
+                1.0,
+                3.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                1.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                1.0
+            ]
+        },
+        "llm_raw_lenient": {
+            "BMI": [
+                22.6744,
+                26.6675
+            ],
+            "WaistCirc": [
+                72.08,
+                84.8
+            ],
+            "Weight": [
+                52.785,
+                62.1
+            ],
+            "Energy_kcal": [
+                1038.3894,
+                1484.842
+            ],
+            "Carb_g": [
+                0.0,
+                214.6201
+            ],
+            "Sugar_g": [
+                0.0,
+                41.6151
+            ],
+            "Sodium_mg": [
+                0.0,
+                1773.9106
+            ],
+            "Fat_g": [
+                -0.0,
+                49.2657
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                16.0914
+            ],
+            "Fiber_g": [
+                0.0,
+                28.7584
+            ],
+            "Potassium_mg": [
+                0.0,
+                2331.8323
+            ],
+            "Protein_g": [
+                0.0,
+                51.734
+            ],
+            "ObesityStatus": [
+                1.0,
+                4.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                8.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                1.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                2.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                1.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                1.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                1.0
+            ],
+            "StressLevel": [
+                1.0,
+                3.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                1.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                1.0
+            ]
+        },
+        "hardrule_ranges": {
+            "BMI": [
+                22.6674,
+                26.6675
+            ],
+            "WaistCirc": [
+                72.08,
+                84.8
+            ],
+            "Weight": [
+                52.785,
+                62.1
+            ],
+            "Energy_kcal": [
+                1039.3894,
+                1484.842
+            ],
+            "Carb_g": [
+                42.924,
+                214.6201
+            ],
+            "Sugar_g": [
+                29.1306,
+                41.6151
+            ],
+            "Sodium_mg": [
+                1064.3464,
+                1596.5195
+            ],
+            "Fat_g": [
+                34.486,
+                64.0454
+            ],
+            "SaturatedFat_g": [
+                11.264,
+                20.9188
+            ],
+            "Fiber_g": [
+                8.6275,
+                37.3859
+            ],
+            "Potassium_mg": [
+                1165.9162,
+                3031.382
+            ],
+            "Protein_g": [
+                31.0404,
+                67.2542
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                2.1,
+                3.9
+            ],
+            "WeightLossAmount": [
+                5.6,
+                10.4
+            ],
+            "WeightGainAmount": [
+                0.7,
+                1.3
+            ],
+            "DrinkingFrequency": [
+                1.4,
+                2.6
+            ],
+            "DrinkingAmount": [
+                0.7,
+                1.3
+            ],
+            "SmokingStatus": [
+                5.6,
+                10.4
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.6
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "WalkingActivity": [
+                0.7,
+                1.3
+            ],
+            "AerobicActivityRate": [
+                0.7,
+                1.3
+            ],
+            "BreakfastFrequency": [
+                0.7,
+                1.3
+            ],
+            "StressLevel": [
+                2.1,
+                3.9
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                2.8,
+                5.2
+            ],
+            "HouseholdIncomeQuartile": [
+                2.8,
+                5.2
+            ],
+            "EducationLevel": [
+                0.7,
+                1.3
+            ],
+            "HealthScreeningStatus": [
+                0.7,
+                1.3
+            ]
+        },
+        "final_ranges": {
+            "BMI": [
+                22.6744,
+                26.6675
+            ],
+            "WaistCirc": [
+                72.08,
+                84.8
+            ],
+            "Weight": [
+                52.785,
+                62.1
+            ],
+            "Energy_kcal": [
+                1039.3894,
+                1484.842
+            ],
+            "Carb_g": [
+                42.924,
+                214.6201
+            ],
+            "Sugar_g": [
+                29.1306,
+                41.6151
+            ],
+            "Sodium_mg": [
+                1064.3464,
+                1596.5195
+            ],
+            "Fat_g": [
+                34.486,
+                49.2657
+            ],
+            "SaturatedFat_g": [
+                11.264,
+                16.0914
+            ],
+            "Fiber_g": [
+                8.6275,
+                28.7584
+            ],
+            "Potassium_mg": [
+                1165.9162,
+                2331.8323
+            ],
+            "Protein_g": [
+                31.0404,
+                51.734
+            ],
+            "ObesityStatus": [
+                2.8,
+                4.0
+            ],
+            "WeightChangeStatus": [
+                2.1,
+                3.0
+            ],
+            "WeightLossAmount": [
+                5.6,
+                8.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                1.0
+            ],
+            "DrinkingFrequency": [
+                1.4,
+                2.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                1.0
+            ],
+            "SmokingStatus": [
+                5.6,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                1.0
+            ],
+            "AerobicActivityRate": [
+                0.7,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                1.0
+            ],
+            "StressLevel": [
+                2.1,
+                3.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                2.8,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                2.8,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                1.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                1.0
+            ]
+        },
+        "llm_n_strict": 31,
+        "llm_n_lenient": 31,
+        "llm_missing_strict": []
+    },
+    "Older_Male_case1": {
+        "group": "Older_Male",
+        "case": 1,
+        "original_index": 4793,
+        "patient_profile": {
+            "BMI": 26.34645903590557,
+            "WaistCirc": 95.0,
+            "Weight": 76.5,
+            "Energy_kcal": 1843.5111793027136,
+            "Carb_g": 322.0559042238104,
+            "Sugar_g": 36.94764138201723,
+            "Sodium_mg": 3057.108239622531,
+            "Fat_g": 34.05983744332298,
+            "SaturatedFat_g": 6.407054667789085,
+            "Fiber_g": 22.049715417976984,
+            "Potassium_mg": 2207.089699674755,
+            "Protein_g": 56.25805923334905,
+            "ObesityStatus": 4.0,
+            "WeightChangeStatus": 1.0,
+            "WeightLossAmount": 8.0,
+            "WeightGainAmount": 8.0,
+            "DrinkingFrequency": 4.0,
+            "DrinkingAmount": 2.0,
+            "SmokingStatus": 3.0,
+            "VigorousActivity_Work": 2.0,
+            "VigorousActivity_Leisure": 2.0,
+            "ModerateActivity_Work": 2.0,
+            "WalkingActivity": 1.0,
+            "AerobicActivityRate": 0.0,
+            "BreakfastFrequency": 1.0,
+            "StressLevel": 3.0,
+            "StressAwarenessRate": 0.0,
+            "PersonalIncomeQuartile": 3.0,
+            "HouseholdIncomeQuartile": 2.0,
+            "EducationLevel": 4.0,
+            "HealthScreeningStatus": 1.0
+        },
+        "llm_reasoning": "{'BMI': 'BMI must move in the same direction as WaistCirc and Weight, all variables are bounded to [current * 0.85, current]', 'WaistCirc': 'WaistCirc must move in the same direction as BMI and Weight, all variables are bounded to [current * 0.85, current]', 'Weight': 'Weight must move in the same direction as BMI and WaistCirc, all variables are bounded to [current * 0.85, current]', 'Energy_kcal': 'Energy_kcal is bounded by [max(current * 0.70, 500), current]', 'Sodium_mg': 'If Sodium_mg is reduced, Carb_g must not exceed current value and must remain non-negative; similarly for Sugar_g, both must also remain non-negative.', 'Fat_g': 'Fat_g can vary in both directions for structural pathway diversity.'}",
+        "llm_raw_strict": {
+            "BMI": [
+                22.411,
+                26.3465
+            ],
+            "WaistCirc": [
+                80.75,
+                95.0
+            ],
+            "Weight": [
+                64.025,
+                76.5
+            ],
+            "Energy_kcal": [
+                500.0,
+                1843.5112
+            ],
+            "Carb_g": [
+                0.0,
+                322.0559
+            ],
+            "Sugar_g": [
+                0.0,
+                36.9476
+            ],
+            "Sodium_mg": [
+                0.0,
+                3057.1082
+            ],
+            "Fat_g": [
+                -34.0598,
+                34.0598
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                6.4071
+            ],
+            "Fiber_g": [
+                0.0,
+                22.0497
+            ],
+            "Potassium_mg": [
+                0.0,
+                2207.0897
+            ],
+            "Protein_g": [
+                0.0,
+                56.2581
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                8.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                6.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                5.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                3.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                2.0
+            ]
+        },
+        "llm_raw_lenient": {
+            "BMI": [
+                22.411,
+                26.3465
+            ],
+            "WaistCirc": [
+                80.75,
+                95.0
+            ],
+            "Weight": [
+                64.025,
+                76.5
+            ],
+            "Energy_kcal": [
+                500.0,
+                1843.5112
+            ],
+            "Carb_g": [
+                0.0,
+                322.0559
+            ],
+            "Sugar_g": [
+                0.0,
+                36.9476
+            ],
+            "Sodium_mg": [
+                0.0,
+                3057.1082
+            ],
+            "Fat_g": [
+                -34.0598,
+                34.0598
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                6.4071
+            ],
+            "Fiber_g": [
+                0.0,
+                22.0497
+            ],
+            "Potassium_mg": [
+                0.0,
+                2207.0897
+            ],
+            "Protein_g": [
+                0.0,
+                56.2581
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                8.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                6.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                5.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                3.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                2.0
+            ]
+        },
+        "hardrule_ranges": {
+            "BMI": [
+                22.3945,
+                26.3465
+            ],
+            "WaistCirc": [
+                80.75,
+                95.0
+            ],
+            "Weight": [
+                65.025,
+                76.5
+            ],
+            "Energy_kcal": [
+                1290.4578,
+                1843.5112
+            ],
+            "Carb_g": [
+                64.4112,
+                322.0559
+            ],
+            "Sugar_g": [
+                25.8633,
+                36.9476
+            ],
+            "Sodium_mg": [
+                1834.2649,
+                2751.3974
+            ],
+            "Fat_g": [
+                23.8419,
+                44.2778
+            ],
+            "SaturatedFat_g": [
+                4.4849,
+                8.3292
+            ],
+            "Fiber_g": [
+                6.6149,
+                28.6646
+            ],
+            "Potassium_mg": [
+                1103.5448,
+                2869.2166
+            ],
+            "Protein_g": [
+                33.7548,
+                73.1355
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                0.7,
+                1.3
+            ],
+            "WeightLossAmount": [
+                5.6,
+                10.4
+            ],
+            "WeightGainAmount": [
+                5.6,
+                10.4
+            ],
+            "DrinkingFrequency": [
+                2.8,
+                5.2
+            ],
+            "DrinkingAmount": [
+                1.4,
+                2.6
+            ],
+            "SmokingStatus": [
+                2.1,
+                3.9
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.6
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "WalkingActivity": [
+                0.7,
+                1.3
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                0.7,
+                1.3
+            ],
+            "StressLevel": [
+                2.1,
+                3.9
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                2.1,
+                3.9
+            ],
+            "HouseholdIncomeQuartile": [
+                1.4,
+                2.6
+            ],
+            "EducationLevel": [
+                2.8,
+                5.2
+            ],
+            "HealthScreeningStatus": [
+                0.7,
+                1.3
+            ]
+        },
+        "final_ranges": {
+            "BMI": [
+                22.411,
+                26.3465
+            ],
+            "WaistCirc": [
+                80.75,
+                95.0
+            ],
+            "Weight": [
+                65.025,
+                76.5
+            ],
+            "Energy_kcal": [
+                1290.4578,
+                1843.5112
+            ],
+            "Carb_g": [
+                64.4112,
+                322.0559
+            ],
+            "Sugar_g": [
+                25.8633,
+                36.9476
+            ],
+            "Sodium_mg": [
+                1834.2649,
+                2751.3974
+            ],
+            "Fat_g": [
+                23.8419,
+                34.0598
+            ],
+            "SaturatedFat_g": [
+                4.4849,
+                6.4071
+            ],
+            "Fiber_g": [
+                6.6149,
+                22.0497
+            ],
+            "Potassium_mg": [
+                1103.5448,
+                2207.0897
+            ],
+            "Protein_g": [
+                33.7548,
+                56.2581
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                1.3
+            ],
+            "WeightLossAmount": [
+                5.6,
+                8.0
+            ],
+            "WeightGainAmount": [
+                5.6,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                2.8,
+                5.2
+            ],
+            "DrinkingAmount": [
+                1.4,
+                2.6
+            ],
+            "SmokingStatus": [
+                2.1,
+                3.0
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                1.3
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                1.3
+            ],
+            "StressLevel": [
+                2.1,
+                3.9
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                2.1,
+                3.9
+            ],
+            "HouseholdIncomeQuartile": [
+                1.4,
+                2.6
+            ],
+            "EducationLevel": [
+                2.8,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                1.3
+            ]
+        },
+        "llm_n_strict": 31,
+        "llm_n_lenient": 31,
+        "llm_missing_strict": []
+    },
+    "Older_Male_case2": {
+        "group": "Older_Male",
+        "case": 2,
+        "original_index": 1673,
+        "patient_profile": {
+            "BMI": 25.72159612243957,
+            "WaistCirc": 91.4,
+            "Weight": 64.7,
+            "Energy_kcal": 1822.0107977252137,
+            "Carb_g": 345.79694880416724,
+            "Sugar_g": 74.25809432443143,
+            "Sodium_mg": 3470.419265488604,
+            "Fat_g": 20.828946856195955,
+            "SaturatedFat_g": 5.252880298646615,
+            "Fiber_g": 33.83449762495147,
+            "Potassium_mg": 4053.129965092967,
+            "Protein_g": 65.16013945420517,
+            "ObesityStatus": 4.0,
+            "WeightChangeStatus": 2.0,
+            "WeightLossAmount": 1.0,
+            "WeightGainAmount": 8.0,
+            "DrinkingFrequency": 2.0,
+            "DrinkingAmount": 1.0,
+            "SmokingStatus": 8.0,
+            "VigorousActivity_Work": 2.0,
+            "VigorousActivity_Leisure": 2.0,
+            "ModerateActivity_Work": 2.0,
+            "WalkingActivity": 2.0,
+            "AerobicActivityRate": 0.0,
+            "BreakfastFrequency": 2.0,
+            "StressLevel": 3.0,
+            "StressAwarenessRate": 0.0,
+            "PersonalIncomeQuartile": 4.0,
+            "HouseholdIncomeQuartile": 4.0,
+            "EducationLevel": 4.0,
+            "HealthScreeningStatus": 1.0
+        },
+        "llm_reasoning": "{'CONFLICT_PREVENTION': 'Sodium_mg must not be reduced below its current value of 3470.42 mg to maintain health guidelines regarding sodium intake. Therefore, Carb_g and Sugar_g cannot exceed their current levels unless Sodium_mg is reduced.', 'PHYSICAL_CONSISTENCY': 'BMI, WaistCirc, and Weight must all decrease or remain the same to ensure they move in the same direction. Current values bound their ranges such that they cannot be reduced to more than 85% of their original values.', 'ENERGY_FLOOR': 'Energy_kcal must remain above 500 kcal or be decreased to a maximum of 70% of the current value, whichever is greater to maintain adequate energy levels.', 'SAFETY': 'All lower bounds for values ensured under safety constraints must be non-negative.', 'DIVERSITY_HINT': 'Fat_g can vary in both directions to allow for dietary diversity, enhancing metabolic flexibility.'}",
+        "llm_raw_strict": {
+            "BMI": [
+                17.0579,
+                25.7216
+            ],
+            "WaistCirc": [
+                0.0,
+                91.4
+            ],
+            "Weight": [
+                0.0,
+                64.7
+            ],
+            "Energy_kcal": [
+                500.0,
+                1275.4075
+            ],
+            "Carb_g": [
+                0.0,
+                345.7969
+            ],
+            "Sugar_g": [
+                0.0,
+                74.2581
+            ],
+            "Sodium_mg": [
+                0.0,
+                3470.4193
+            ],
+            "Fat_g": [
+                -20.8289,
+                20.8289
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                5.2529
+            ],
+            "Fiber_g": [
+                0.0,
+                33.8345
+            ],
+            "Potassium_mg": [
+                0.0,
+                4053.13
+            ],
+            "Protein_g": [
+                0.0,
+                65.1601
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                1.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                2.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                1.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                2.0
+            ],
+            "StressLevel": [
+                1.0,
+                3.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                1.0
+            ]
+        },
+        "llm_raw_lenient": {
+            "BMI": [
+                17.0579,
+                25.7216
+            ],
+            "WaistCirc": [
+                0.0,
+                91.4
+            ],
+            "Weight": [
+                0.0,
+                64.7
+            ],
+            "Energy_kcal": [
+                500.0,
+                1275.4075
+            ],
+            "Carb_g": [
+                0.0,
+                345.7969
+            ],
+            "Sugar_g": [
+                0.0,
+                74.2581
+            ],
+            "Sodium_mg": [
+                0.0,
+                3470.4193
+            ],
+            "Fat_g": [
+                -20.8289,
+                20.8289
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                5.2529
+            ],
+            "Fiber_g": [
+                0.0,
+                33.8345
+            ],
+            "Potassium_mg": [
+                0.0,
+                4053.13
+            ],
+            "Protein_g": [
+                0.0,
+                65.1601
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                1.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                2.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                1.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                2.0
+            ],
+            "StressLevel": [
+                1.0,
+                3.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                1.0
+            ]
+        },
+        "hardrule_ranges": {
+            "BMI": [
+                21.8634,
+                25.7216
+            ],
+            "WaistCirc": [
+                77.69,
+                91.4
+            ],
+            "Weight": [
+                54.995,
+                64.7
+            ],
+            "Energy_kcal": [
+                1275.4076,
+                1822.0108
+            ],
+            "Carb_g": [
+                69.1594,
+                345.7969
+            ],
+            "Sugar_g": [
+                51.9807,
+                74.2581
+            ],
+            "Sodium_mg": [
+                2082.2516,
+                3123.3773
+            ],
+            "Fat_g": [
+                14.5803,
+                27.0776
+            ],
+            "SaturatedFat_g": [
+                3.677,
+                6.8287
+            ],
+            "Fiber_g": [
+                10.1503,
+                43.9848
+            ],
+            "Potassium_mg": [
+                2026.565,
+                5269.069
+            ],
+            "Protein_g": [
+                39.0961,
+                84.7082
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                1.4,
+                2.6
+            ],
+            "WeightLossAmount": [
+                0.7,
+                1.3
+            ],
+            "WeightGainAmount": [
+                5.6,
+                10.4
+            ],
+            "DrinkingFrequency": [
+                1.4,
+                2.6
+            ],
+            "DrinkingAmount": [
+                0.7,
+                1.3
+            ],
+            "SmokingStatus": [
+                5.6,
+                10.4
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.6
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "WalkingActivity": [
+                1.4,
+                2.6
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                1.4,
+                2.6
+            ],
+            "StressLevel": [
+                2.1,
+                3.9
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                2.8,
+                5.2
+            ],
+            "HouseholdIncomeQuartile": [
+                2.8,
+                5.2
+            ],
+            "EducationLevel": [
+                2.8,
+                5.2
+            ],
+            "HealthScreeningStatus": [
+                0.7,
+                1.3
+            ]
+        },
+        "final_ranges": {
+            "BMI": [
+                21.8634,
+                25.7216
+            ],
+            "WaistCirc": [
+                77.69,
+                91.4
+            ],
+            "Weight": [
+                54.995,
+                64.7
+            ],
+            "Energy_kcal": [
+                1275.4076,
+                1822.0108
+            ],
+            "Carb_g": [
+                69.1594,
+                345.7969
+            ],
+            "Sugar_g": [
+                51.9807,
+                74.2581
+            ],
+            "Sodium_mg": [
+                2082.2516,
+                3123.3773
+            ],
+            "Fat_g": [
+                14.5803,
+                20.8289
+            ],
+            "SaturatedFat_g": [
+                3.677,
+                5.2529
+            ],
+            "Fiber_g": [
+                10.1503,
+                33.8345
+            ],
+            "Potassium_mg": [
+                2026.565,
+                4053.13
+            ],
+            "Protein_g": [
+                39.0961,
+                65.1601
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                1.4,
+                2.6
+            ],
+            "WeightLossAmount": [
+                1.0,
+                1.0
+            ],
+            "WeightGainAmount": [
+                5.6,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.4,
+                2.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                1.0
+            ],
+            "SmokingStatus": [
+                5.6,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.4,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                1.4,
+                2.0
+            ],
+            "StressLevel": [
+                2.1,
+                3.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                2.8,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                2.8,
+                4.0
+            ],
+            "EducationLevel": [
+                2.8,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                1.0
+            ]
+        },
+        "llm_n_strict": 31,
+        "llm_n_lenient": 31,
+        "llm_missing_strict": []
+    },
+    "Older_Male_case3": {
+        "group": "Older_Male",
+        "case": 3,
+        "original_index": 4989,
+        "patient_profile": {
+            "BMI": 26.04741114399119,
+            "WaistCirc": 90.3,
+            "Weight": 75.1,
+            "Energy_kcal": 1914.7658974204085,
+            "Carb_g": 302.6296693148186,
+            "Sugar_g": 37.22338996615315,
+            "Sodium_mg": 3778.285607411349,
+            "Fat_g": 43.080109566915525,
+            "SaturatedFat_g": 11.98661983505446,
+            "Fiber_g": 34.852283842764706,
+            "Potassium_mg": 4264.976267601767,
+            "Protein_g": 83.0117243800835,
+            "ObesityStatus": 4.0,
+            "WeightChangeStatus": 1.0,
+            "WeightLossAmount": 8.0,
+            "WeightGainAmount": 8.0,
+            "DrinkingFrequency": 4.0,
+            "DrinkingAmount": 5.0,
+            "SmokingStatus": 3.0,
+            "VigorousActivity_Work": 2.0,
+            "VigorousActivity_Leisure": 2.0,
+            "ModerateActivity_Work": 2.0,
+            "WalkingActivity": 2.0,
+            "AerobicActivityRate": 0.0,
+            "BreakfastFrequency": 1.0,
+            "StressLevel": 3.0,
+            "StressAwarenessRate": 0.0,
+            "PersonalIncomeQuartile": 2.0,
+            "HouseholdIncomeQuartile": 2.0,
+            "EducationLevel": 1.0,
+            "HealthScreeningStatus": 1.0
+        },
+        "llm_reasoning": "{'BMI': 'BMI must remain consistent with WaistCirc and Weight, capped at a maximum of the current BMI which is 26.05.', 'WaistCirc': 'WaistCirc must move consistently with BMI and Weight within the same directional constraints.', 'Weight': 'Weight must also align with the moves of BMI and WaistCirc without exceeding the current value.', 'Energy_kcal': 'Must be capped at a minimum of max(current * 0.70, 500), ensuring sufficient energy intake for health.', 'Carb_g': 'Should be capped at [0, current Carb_g] if Sodium_mg is reduced.', 'Sugar_g': 'Should also be capped similarly to Carb_g if Sodium_mg is reduced.', 'Sodium_mg': 'Current Sodium_mg and its reduction should be carefully monitored.', 'Fat_g': 'Fat_g can vary in both directions to allow structural pathway diversity while adhering to guidelines.', 'SaturatedFat_g': 'Remains unchanged as no guideline directly applies to it in the context provided.'}",
+        "llm_raw_strict": {
+            "BMI": [
+                22.57,
+                26.05
+            ],
+            "WaistCirc": [
+                76.76,
+                90.3
+            ],
+            "Weight": [
+                63.84,
+                75.1
+            ],
+            "Energy_kcal": [
+                500.0,
+                1914.77
+            ],
+            "Carb_g": [
+                0.0,
+                302.63
+            ],
+            "Sugar_g": [
+                0.0,
+                37.22
+            ],
+            "Sodium_mg": [
+                0.0,
+                3778.29
+            ],
+            "Fat_g": [
+                0.0,
+                43.08
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                11.99
+            ],
+            "Fiber_g": [
+                0.0,
+                34.85
+            ],
+            "Potassium_mg": [
+                0.0,
+                4264.98
+            ],
+            "Protein_g": [
+                0.0,
+                83.01
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                8.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                6.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                5.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                3.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                2.0
+            ]
+        },
+        "llm_raw_lenient": {
+            "BMI": [
+                22.57,
+                26.05
+            ],
+            "WaistCirc": [
+                76.76,
+                90.3
+            ],
+            "Weight": [
+                63.84,
+                75.1
+            ],
+            "Energy_kcal": [
+                500.0,
+                1914.77
+            ],
+            "Carb_g": [
+                0.0,
+                302.63
+            ],
+            "Sugar_g": [
+                0.0,
+                37.22
+            ],
+            "Sodium_mg": [
+                0.0,
+                3778.29
+            ],
+            "Fat_g": [
+                0.0,
+                43.08
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                11.99
+            ],
+            "Fiber_g": [
+                0.0,
+                34.85
+            ],
+            "Potassium_mg": [
+                0.0,
+                4264.98
+            ],
+            "Protein_g": [
+                0.0,
+                83.01
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                8.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                6.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                5.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                3.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                2.0
+            ]
+        },
+        "hardrule_ranges": {
+            "BMI": [
+                22.1403,
+                26.0474
+            ],
+            "WaistCirc": [
+                76.755,
+                90.3
+            ],
+            "Weight": [
+                63.835,
+                75.1
+            ],
+            "Energy_kcal": [
+                1340.3361,
+                1914.7659
+            ],
+            "Carb_g": [
+                60.5259,
+                302.6297
+            ],
+            "Sugar_g": [
+                26.0564,
+                37.2234
+            ],
+            "Sodium_mg": [
+                2266.9714,
+                3400.457
+            ],
+            "Fat_g": [
+                30.1561,
+                56.0041
+            ],
+            "SaturatedFat_g": [
+                8.3906,
+                15.5826
+            ],
+            "Fiber_g": [
+                10.4557,
+                45.308
+            ],
+            "Potassium_mg": [
+                2132.4881,
+                5544.4691
+            ],
+            "Protein_g": [
+                49.807,
+                107.9152
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                0.7,
+                1.3
+            ],
+            "WeightLossAmount": [
+                5.6,
+                10.4
+            ],
+            "WeightGainAmount": [
+                5.6,
+                10.4
+            ],
+            "DrinkingFrequency": [
+                2.8,
+                5.2
+            ],
+            "DrinkingAmount": [
+                3.5,
+                6.5
+            ],
+            "SmokingStatus": [
+                2.1,
+                3.9
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.6
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "WalkingActivity": [
+                1.4,
+                2.6
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                0.7,
+                1.3
+            ],
+            "StressLevel": [
+                2.1,
+                3.9
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.4,
+                2.6
+            ],
+            "HouseholdIncomeQuartile": [
+                1.4,
+                2.6
+            ],
+            "EducationLevel": [
+                0.7,
+                1.3
+            ],
+            "HealthScreeningStatus": [
+                0.7,
+                1.3
+            ]
+        },
+        "final_ranges": {
+            "BMI": [
+                22.57,
+                26.0474
+            ],
+            "WaistCirc": [
+                76.76,
+                90.3
+            ],
+            "Weight": [
+                63.84,
+                75.1
+            ],
+            "Energy_kcal": [
+                1340.3361,
+                1914.7659
+            ],
+            "Carb_g": [
+                60.5259,
+                302.6297
+            ],
+            "Sugar_g": [
+                26.0564,
+                37.22
+            ],
+            "Sodium_mg": [
+                2266.9714,
+                3400.457
+            ],
+            "Fat_g": [
+                30.1561,
+                43.08
+            ],
+            "SaturatedFat_g": [
+                8.3906,
+                11.99
+            ],
+            "Fiber_g": [
+                10.4557,
+                34.85
+            ],
+            "Potassium_mg": [
+                2132.4881,
+                4264.98
+            ],
+            "Protein_g": [
+                49.807,
+                83.01
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                1.3
+            ],
+            "WeightLossAmount": [
+                5.6,
+                8.0
+            ],
+            "WeightGainAmount": [
+                5.6,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                2.8,
+                5.2
+            ],
+            "DrinkingAmount": [
+                3.5,
+                5.0
+            ],
+            "SmokingStatus": [
+                2.1,
+                3.0
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.4,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                1.3
+            ],
+            "StressLevel": [
+                2.1,
+                3.9
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.4,
+                2.6
+            ],
+            "HouseholdIncomeQuartile": [
+                1.4,
+                2.6
+            ],
+            "EducationLevel": [
+                1.0,
+                1.3
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                1.3
+            ]
+        },
+        "llm_n_strict": 31,
+        "llm_n_lenient": 31,
+        "llm_missing_strict": []
+    },
+    "Older_Female_case1": {
+        "group": "Older_Female",
+        "case": 1,
+        "original_index": 4918,
+        "patient_profile": {
+            "BMI": 26.167659817130843,
+            "WaistCirc": 94.0,
+            "Weight": 63.6,
+            "Energy_kcal": 1327.6484671831577,
+            "Carb_g": 208.16330030244276,
+            "Sugar_g": 34.78134171102058,
+            "Sodium_mg": 2083.6950183457525,
+            "Fat_g": 24.93624068357609,
+            "SaturatedFat_g": 5.364425932783886,
+            "Fiber_g": 29.55298265406533,
+            "Potassium_mg": 2670.2532311906334,
+            "Protein_g": 66.15003489891046,
+            "ObesityStatus": 4.0,
+            "WeightChangeStatus": 2.0,
+            "WeightLossAmount": 1.0,
+            "WeightGainAmount": 8.0,
+            "DrinkingFrequency": 8.0,
+            "DrinkingAmount": 8.0,
+            "SmokingStatus": 8.0,
+            "VigorousActivity_Work": 2.0,
+            "VigorousActivity_Leisure": 2.0,
+            "ModerateActivity_Work": 2.0,
+            "WalkingActivity": 1.0,
+            "AerobicActivityRate": 1.0,
+            "BreakfastFrequency": 1.0,
+            "StressLevel": 3.0,
+            "StressAwarenessRate": 0.0,
+            "PersonalIncomeQuartile": 3.0,
+            "HouseholdIncomeQuartile": 1.0,
+            "EducationLevel": 3.0,
+            "HealthScreeningStatus": 2.0
+        },
+        "llm_reasoning": "{'CONFLICT_PREVENTION': 'To comply with conflict prevention, if Sodium_mg is reduced below its current level, Carb_g can only be decreased to a maximum of 208.16 and Sugar_g can be decreased to a maximum of 34.78.', 'PHYSICAL_CONSISTENCY': 'BMI, WaistCirc, and Weight must either all increase or decrease together. Each metric should remain above 0 and cannot exceed the current value.', 'ENERGY_FLOOR': 'Energy_kcal must not drop below 500 and must be at least 70% of the current value, adjusted based on both the min value and current.', 'SAFETY': 'All lower bounds must be non-negative, ensuring that values such as Carb_g and Sugar_g cannot go below zero.', 'DIVERSITY_HINT': 'Fat_g can vary in both directions, providing flexibility for adjusting dietary fat intake.'}",
+        "llm_raw_strict": {
+            "BMI": [
+                22.27,
+                26.17
+            ],
+            "WaistCirc": [
+                79.0,
+                94.0
+            ],
+            "Weight": [
+                54.06,
+                63.6
+            ],
+            "Energy_kcal": [
+                500.0,
+                1327.65
+            ],
+            "Carb_g": [
+                0.0,
+                208.16
+            ],
+            "Sugar_g": [
+                0.0,
+                34.78
+            ],
+            "Sodium_mg": [
+                0.0,
+                2083.7
+            ],
+            "Fat_g": [
+                0.0,
+                24.94
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                5.36
+            ],
+            "Fiber_g": [
+                0.0,
+                29.55
+            ],
+            "Potassium_mg": [
+                0.0,
+                2670.25
+            ],
+            "Protein_g": [
+                0.0,
+                66.15
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                9.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                9.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                8.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                8.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                9.0
+            ]
+        },
+        "llm_raw_lenient": {
+            "BMI": [
+                22.27,
+                26.17
+            ],
+            "WaistCirc": [
+                79.0,
+                94.0
+            ],
+            "Weight": [
+                54.06,
+                63.6
+            ],
+            "Energy_kcal": [
+                500.0,
+                1327.65
+            ],
+            "Carb_g": [
+                0.0,
+                208.16
+            ],
+            "Sugar_g": [
+                0.0,
+                34.78
+            ],
+            "Sodium_mg": [
+                0.0,
+                2083.7
+            ],
+            "Fat_g": [
+                0.0,
+                24.94
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                5.36
+            ],
+            "Fiber_g": [
+                0.0,
+                29.55
+            ],
+            "Potassium_mg": [
+                0.0,
+                2670.25
+            ],
+            "Protein_g": [
+                0.0,
+                66.15
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                9.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                9.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                8.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                8.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                9.0
+            ]
+        },
+        "hardrule_ranges": {
+            "BMI": [
+                22.2425,
+                26.1677
+            ],
+            "WaistCirc": [
+                79.9,
+                94.0
+            ],
+            "Weight": [
+                54.06,
+                63.6
+            ],
+            "Energy_kcal": [
+                929.3539,
+                1327.6485
+            ],
+            "Carb_g": [
+                41.6327,
+                208.1633
+            ],
+            "Sugar_g": [
+                24.3469,
+                34.7813
+            ],
+            "Sodium_mg": [
+                1250.217,
+                1875.3255
+            ],
+            "Fat_g": [
+                17.4554,
+                32.4171
+            ],
+            "SaturatedFat_g": [
+                3.7551,
+                6.9738
+            ],
+            "Fiber_g": [
+                8.8659,
+                38.4189
+            ],
+            "Potassium_mg": [
+                1335.1266,
+                3471.3292
+            ],
+            "Protein_g": [
+                39.69,
+                85.995
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                1.4,
+                2.6
+            ],
+            "WeightLossAmount": [
+                0.7,
+                1.3
+            ],
+            "WeightGainAmount": [
+                5.6,
+                10.4
+            ],
+            "DrinkingFrequency": [
+                5.6,
+                10.4
+            ],
+            "DrinkingAmount": [
+                5.6,
+                10.4
+            ],
+            "SmokingStatus": [
+                5.6,
+                10.4
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.6
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "WalkingActivity": [
+                0.7,
+                1.3
+            ],
+            "AerobicActivityRate": [
+                0.7,
+                1.3
+            ],
+            "BreakfastFrequency": [
+                0.7,
+                1.3
+            ],
+            "StressLevel": [
+                2.1,
+                3.9
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                2.1,
+                3.9
+            ],
+            "HouseholdIncomeQuartile": [
+                0.7,
+                1.3
+            ],
+            "EducationLevel": [
+                2.1,
+                3.9
+            ],
+            "HealthScreeningStatus": [
+                1.4,
+                2.6
+            ]
+        },
+        "final_ranges": {
+            "BMI": [
+                22.27,
+                26.1677
+            ],
+            "WaistCirc": [
+                79.9,
+                94.0
+            ],
+            "Weight": [
+                54.06,
+                63.6
+            ],
+            "Energy_kcal": [
+                929.3539,
+                1327.6485
+            ],
+            "Carb_g": [
+                41.6327,
+                208.16
+            ],
+            "Sugar_g": [
+                24.3469,
+                34.78
+            ],
+            "Sodium_mg": [
+                1250.217,
+                1875.3255
+            ],
+            "Fat_g": [
+                17.4554,
+                24.94
+            ],
+            "SaturatedFat_g": [
+                3.7551,
+                5.36
+            ],
+            "Fiber_g": [
+                8.8659,
+                29.55
+            ],
+            "Potassium_mg": [
+                1335.1266,
+                2670.25
+            ],
+            "Protein_g": [
+                39.69,
+                66.15
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                1.4,
+                2.6
+            ],
+            "WeightLossAmount": [
+                1.0,
+                1.3
+            ],
+            "WeightGainAmount": [
+                5.6,
+                9.0
+            ],
+            "DrinkingFrequency": [
+                5.6,
+                8.0
+            ],
+            "DrinkingAmount": [
+                5.6,
+                8.0
+            ],
+            "SmokingStatus": [
+                5.6,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                1.3
+            ],
+            "AerobicActivityRate": [
+                0.7,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                1.3
+            ],
+            "StressLevel": [
+                2.1,
+                3.9
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                2.1,
+                3.9
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                1.3
+            ],
+            "EducationLevel": [
+                2.1,
+                3.9
+            ],
+            "HealthScreeningStatus": [
+                1.4,
+                2.6
+            ]
+        },
+        "llm_n_strict": 31,
+        "llm_n_lenient": 31,
+        "llm_missing_strict": []
+    },
+    "Older_Female_case2": {
+        "group": "Older_Female",
+        "case": 2,
+        "original_index": 3010,
+        "patient_profile": {
+            "BMI": 26.2732706111127,
+            "WaistCirc": 89.5,
+            "Weight": 58.8,
+            "Energy_kcal": 1344.7705790690725,
+            "Carb_g": 240.3948003222726,
+            "Sugar_g": 15.14821954900061,
+            "Sodium_mg": 2220.3801287833444,
+            "Fat_g": 13.790600594343084,
+            "SaturatedFat_g": 3.3261989177787643,
+            "Fiber_g": 21.014039205644583,
+            "Potassium_mg": 3110.2719278737814,
+            "Protein_g": 60.19649743680717,
+            "ObesityStatus": 4.0,
+            "WeightChangeStatus": 1.0,
+            "WeightLossAmount": 8.0,
+            "WeightGainAmount": 8.0,
+            "DrinkingFrequency": 1.0,
+            "DrinkingAmount": 8.0,
+            "SmokingStatus": 8.0,
+            "VigorousActivity_Work": 2.0,
+            "VigorousActivity_Leisure": 2.0,
+            "ModerateActivity_Work": 2.0,
+            "WalkingActivity": 1.0,
+            "AerobicActivityRate": 0.0,
+            "BreakfastFrequency": 1.0,
+            "StressLevel": 3.0,
+            "StressAwarenessRate": 0.0,
+            "PersonalIncomeQuartile": 3.0,
+            "HouseholdIncomeQuartile": 1.0,
+            "EducationLevel": 2.0,
+            "HealthScreeningStatus": 2.0
+        },
+        "llm_reasoning": "{'CONFLICT_PREVENTION': 'The reduction of Sodium_mg can only occur if both Carb_g and Sugar_g remain at or above zero. If Sodium_mg is reduced below its current value, Carb_g and Sugar_g should be capped to ensure they do not exceed their current levels.', 'PHYSICAL_CONSISTENCY': 'BMI, WaistCirc, and Weight must decrease together to maintain a consistent correlation among these physical indicators of body composition.', 'ENERGY_FLOOR': 'The Energy_kcal should not drop below 500 calories and must be at least 70% of the current value to ensure adequate caloric intake.', 'SAFETY': 'All values that represent quantities (e.g., Carb_g, Sugar_g) must remain above zero to align with safety regulations.', 'DIVERSITY_HINT': 'Fat_g can vary in both directions to support diverse metabolic pathways without risking health.'}",
+        "llm_raw_strict": {
+            "BMI": [
+                24.418,
+                26.273
+            ],
+            "WaistCirc": [
+                75.075,
+                89.5
+            ],
+            "Weight": [
+                49.98,
+                58.8
+            ],
+            "Energy_kcal": [
+                500.0,
+                1344.7706
+            ],
+            "Carb_g": [
+                0.0,
+                240.3948
+            ],
+            "Sugar_g": [
+                0.0,
+                15.1482
+            ],
+            "Sodium_mg": [
+                0.0,
+                2220.3801
+            ],
+            "Fat_g": [
+                -13.7906,
+                13.7906
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                3.3262
+            ],
+            "Fiber_g": [
+                0.0,
+                21.014
+            ],
+            "Potassium_mg": [
+                0.0,
+                3110.2719
+            ],
+            "Protein_g": [
+                0.0,
+                60.1965
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                8.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                8.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                8.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                9.0
+            ]
+        },
+        "llm_raw_lenient": {
+            "BMI": [
+                24.418,
+                26.273
+            ],
+            "WaistCirc": [
+                75.075,
+                89.5
+            ],
+            "Weight": [
+                49.98,
+                58.8
+            ],
+            "Energy_kcal": [
+                500.0,
+                1344.7706
+            ],
+            "Carb_g": [
+                0.0,
+                240.3948
+            ],
+            "Sugar_g": [
+                0.0,
+                15.1482
+            ],
+            "Sodium_mg": [
+                0.0,
+                2220.3801
+            ],
+            "Fat_g": [
+                -13.7906,
+                13.7906
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                3.3262
+            ],
+            "Fiber_g": [
+                0.0,
+                21.014
+            ],
+            "Potassium_mg": [
+                0.0,
+                3110.2719
+            ],
+            "Protein_g": [
+                0.0,
+                60.1965
+            ],
+            "ObesityStatus": [
+                1.0,
+                6.0
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                3.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                8.0
+            ],
+            "WeightGainAmount": [
+                1.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                8.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                8.0
+            ],
+            "SmokingStatus": [
+                1.0,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                1.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                4.0
+            ],
+            "StressLevel": [
+                1.0,
+                4.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                1.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                4.0
+            ],
+            "EducationLevel": [
+                1.0,
+                4.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                9.0
+            ]
+        },
+        "hardrule_ranges": {
+            "BMI": [
+                22.3323,
+                26.2733
+            ],
+            "WaistCirc": [
+                76.075,
+                89.5
+            ],
+            "Weight": [
+                49.98,
+                58.8
+            ],
+            "Energy_kcal": [
+                941.3394,
+                1344.7706
+            ],
+            "Carb_g": [
+                48.079,
+                240.3948
+            ],
+            "Sugar_g": [
+                10.6038,
+                15.1482
+            ],
+            "Sodium_mg": [
+                1332.2281,
+                1998.3421
+            ],
+            "Fat_g": [
+                9.6534,
+                17.9278
+            ],
+            "SaturatedFat_g": [
+                2.3283,
+                4.3241
+            ],
+            "Fiber_g": [
+                6.3042,
+                27.3183
+            ],
+            "Potassium_mg": [
+                1555.136,
+                4043.3535
+            ],
+            "Protein_g": [
+                36.1179,
+                78.2554
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                0.7,
+                1.3
+            ],
+            "WeightLossAmount": [
+                5.6,
+                10.4
+            ],
+            "WeightGainAmount": [
+                5.6,
+                10.4
+            ],
+            "DrinkingFrequency": [
+                0.7,
+                1.3
+            ],
+            "DrinkingAmount": [
+                5.6,
+                10.4
+            ],
+            "SmokingStatus": [
+                5.6,
+                10.4
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.6
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "WalkingActivity": [
+                0.7,
+                1.3
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                0.7,
+                1.3
+            ],
+            "StressLevel": [
+                2.1,
+                3.9
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                2.1,
+                3.9
+            ],
+            "HouseholdIncomeQuartile": [
+                0.7,
+                1.3
+            ],
+            "EducationLevel": [
+                1.4,
+                2.6
+            ],
+            "HealthScreeningStatus": [
+                1.4,
+                2.6
+            ]
+        },
+        "final_ranges": {
+            "BMI": [
+                24.418,
+                26.273
+            ],
+            "WaistCirc": [
+                76.075,
+                89.5
+            ],
+            "Weight": [
+                49.98,
+                58.8
+            ],
+            "Energy_kcal": [
+                941.3394,
+                1344.7706
+            ],
+            "Carb_g": [
+                48.079,
+                240.3948
+            ],
+            "Sugar_g": [
+                10.6038,
+                15.1482
+            ],
+            "Sodium_mg": [
+                1332.2281,
+                1998.3421
+            ],
+            "Fat_g": [
+                9.6534,
+                13.7906
+            ],
+            "SaturatedFat_g": [
+                2.3283,
+                3.3262
+            ],
+            "Fiber_g": [
+                6.3042,
+                21.014
+            ],
+            "Potassium_mg": [
+                1555.136,
+                3110.2719
+            ],
+            "Protein_g": [
+                36.1179,
+                60.1965
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                1.0,
+                1.3
+            ],
+            "WeightLossAmount": [
+                5.6,
+                8.0
+            ],
+            "WeightGainAmount": [
+                5.6,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                1.3
+            ],
+            "DrinkingAmount": [
+                5.6,
+                8.0
+            ],
+            "SmokingStatus": [
+                5.6,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.0
+            ],
+            "WalkingActivity": [
+                1.0,
+                1.3
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                1.3
+            ],
+            "StressLevel": [
+                2.1,
+                3.9
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                2.1,
+                3.9
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                1.3
+            ],
+            "EducationLevel": [
+                1.4,
+                2.6
+            ],
+            "HealthScreeningStatus": [
+                1.4,
+                2.6
+            ]
+        },
+        "llm_n_strict": 31,
+        "llm_n_lenient": 31,
+        "llm_missing_strict": []
+    },
+    "Older_Female_case3": {
+        "group": "Older_Female",
+        "case": 3,
+        "original_index": 3991,
+        "patient_profile": {
+            "BMI": 26.05623240550896,
+            "WaistCirc": 89.7,
+            "Weight": 64.8,
+            "Energy_kcal": 1341.8725074245358,
+            "Carb_g": 229.2497905857906,
+            "Sugar_g": 52.70523448330753,
+            "Sodium_mg": 1790.776521682472,
+            "Fat_g": 25.74892815032644,
+            "SaturatedFat_g": 6.699892803312931,
+            "Fiber_g": 26.59622107540238,
+            "Potassium_mg": 2760.602313327612,
+            "Protein_g": 46.93492821066928,
+            "ObesityStatus": 4.0,
+            "WeightChangeStatus": 2.0,
+            "WeightLossAmount": 1.0,
+            "WeightGainAmount": 8.0,
+            "DrinkingFrequency": 2.0,
+            "DrinkingAmount": 1.0,
+            "SmokingStatus": 8.0,
+            "VigorousActivity_Work": 2.0,
+            "VigorousActivity_Leisure": 2.0,
+            "ModerateActivity_Work": 2.0,
+            "WalkingActivity": 2.0,
+            "AerobicActivityRate": 0.0,
+            "BreakfastFrequency": 1.0,
+            "StressLevel": 3.0,
+            "StressAwarenessRate": 0.0,
+            "PersonalIncomeQuartile": 1.0,
+            "HouseholdIncomeQuartile": 1.0,
+            "EducationLevel": 1.0,
+            "HealthScreeningStatus": 1.0
+        },
+        "llm_reasoning": "{'conflict_prevention': 'Sodium_mg must not be reduced below current value; thus, Carb_g and Sugar_g must remain within the specified limits to prevent potential negative health effects.', 'physical_consistency': 'BMI, WaistCirc, and Weight must all decrease together to maintain physiological coherence; all values are capped at their current value to ensure consistency.', 'energy_floor': 'Energy_kcal must not fall below the calculated floor to ensure adequate caloric intake for overall health.', 'safety': 'All variables must maintain non-negative values to prevent unrealistic or harmful outcomes.', 'diversity_hint': 'Fat_g can vary positively or negatively for structural pathway exploration and individual dietary needs.'}",
+        "llm_raw_strict": {
+            "BMI": [
+                22.1008,
+                26.0562
+            ],
+            "WaistCirc": [
+                76.245,
+                89.7
+            ],
+            "Weight": [
+                55.08,
+                64.8
+            ],
+            "Energy_kcal": [
+                938.3108,
+                1341.8725
+            ],
+            "Carb_g": [
+                0.0,
+                229.2498
+            ],
+            "Sugar_g": [
+                0.0,
+                52.7052
+            ],
+            "Sodium_mg": [
+                1790.7765,
+                1790.7765
+            ],
+            "Fat_g": [
+                0.0,
+                25.7489
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                6.6999
+            ],
+            "Fiber_g": [
+                0.0,
+                26.5962
+            ],
+            "Potassium_mg": [
+                0.0,
+                2760.6023
+            ],
+            "Protein_g": [
+                0.0,
+                46.9349
+            ],
+            "ObesityStatus": [
+                4.0,
+                4.0
+            ],
+            "WeightChangeStatus": [
+                2.0,
+                2.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                1.0
+            ],
+            "WeightGainAmount": [
+                8.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                2.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                1.0
+            ],
+            "SmokingStatus": [
+                8.0,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                2.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                2.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                2.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                2.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                1.0
+            ],
+            "StressLevel": [
+                3.0,
+                3.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                1.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                1.0
+            ],
+            "EducationLevel": [
+                1.0,
+                1.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                1.0
+            ]
+        },
+        "llm_raw_lenient": {
+            "BMI": [
+                22.1008,
+                26.0562
+            ],
+            "WaistCirc": [
+                76.245,
+                89.7
+            ],
+            "Weight": [
+                55.08,
+                64.8
+            ],
+            "Energy_kcal": [
+                938.3108,
+                1341.8725
+            ],
+            "Carb_g": [
+                0.0,
+                229.2498
+            ],
+            "Sugar_g": [
+                0.0,
+                52.7052
+            ],
+            "Sodium_mg": [
+                1790.7765,
+                1790.7765
+            ],
+            "Fat_g": [
+                0.0,
+                25.7489
+            ],
+            "SaturatedFat_g": [
+                0.0,
+                6.6999
+            ],
+            "Fiber_g": [
+                0.0,
+                26.5962
+            ],
+            "Potassium_mg": [
+                0.0,
+                2760.6023
+            ],
+            "Protein_g": [
+                0.0,
+                46.9349
+            ],
+            "ObesityStatus": [
+                4.0,
+                4.0
+            ],
+            "WeightChangeStatus": [
+                2.0,
+                2.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                1.0
+            ],
+            "WeightGainAmount": [
+                8.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.0,
+                2.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                1.0
+            ],
+            "SmokingStatus": [
+                8.0,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                2.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                2.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                2.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                2.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                1.0
+            ],
+            "StressLevel": [
+                3.0,
+                3.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                1.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                1.0
+            ],
+            "EducationLevel": [
+                1.0,
+                1.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                1.0
+            ]
+        },
+        "hardrule_ranges": {
+            "BMI": [
+                22.1478,
+                26.0562
+            ],
+            "WaistCirc": [
+                76.245,
+                89.7
+            ],
+            "Weight": [
+                55.08,
+                64.8
+            ],
+            "Energy_kcal": [
+                939.3108,
+                1341.8725
+            ],
+            "Carb_g": [
+                45.85,
+                229.2498
+            ],
+            "Sugar_g": [
+                36.8937,
+                52.7052
+            ],
+            "Sodium_mg": [
+                1074.4659,
+                1611.6989
+            ],
+            "Fat_g": [
+                18.0242,
+                33.4736
+            ],
+            "SaturatedFat_g": [
+                4.6899,
+                8.7099
+            ],
+            "Fiber_g": [
+                7.9789,
+                34.5751
+            ],
+            "Potassium_mg": [
+                1380.3012,
+                3588.783
+            ],
+            "Protein_g": [
+                30.0,
+                61.0154
+            ],
+            "ObesityStatus": [
+                2.8,
+                5.2
+            ],
+            "WeightChangeStatus": [
+                1.4,
+                2.6
+            ],
+            "WeightLossAmount": [
+                0.7,
+                1.3
+            ],
+            "WeightGainAmount": [
+                5.6,
+                10.4
+            ],
+            "DrinkingFrequency": [
+                1.4,
+                2.6
+            ],
+            "DrinkingAmount": [
+                0.7,
+                1.3
+            ],
+            "SmokingStatus": [
+                5.6,
+                10.4
+            ],
+            "VigorousActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "VigorousActivity_Leisure": [
+                1.4,
+                2.6
+            ],
+            "ModerateActivity_Work": [
+                1.4,
+                2.6
+            ],
+            "WalkingActivity": [
+                1.4,
+                2.6
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                0.7,
+                1.3
+            ],
+            "StressLevel": [
+                2.1,
+                3.9
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                0.7,
+                1.3
+            ],
+            "HouseholdIncomeQuartile": [
+                0.7,
+                1.3
+            ],
+            "EducationLevel": [
+                0.7,
+                1.3
+            ],
+            "HealthScreeningStatus": [
+                0.7,
+                1.3
+            ]
+        },
+        "final_ranges": {
+            "BMI": [
+                22.1478,
+                26.0562
+            ],
+            "WaistCirc": [
+                76.245,
+                89.7
+            ],
+            "Weight": [
+                55.08,
+                64.8
+            ],
+            "Energy_kcal": [
+                939.3108,
+                1341.8725
+            ],
+            "Carb_g": [
+                45.85,
+                229.2498
+            ],
+            "Sugar_g": [
+                36.8937,
+                52.7052
+            ],
+            "Sodium_mg": [
+                1074.4659,
+                1611.6989
+            ],
+            "Fat_g": [
+                18.0242,
+                25.7489
+            ],
+            "SaturatedFat_g": [
+                4.6899,
+                6.6999
+            ],
+            "Fiber_g": [
+                7.9789,
+                26.5962
+            ],
+            "Potassium_mg": [
+                1380.3012,
+                2760.6023
+            ],
+            "Protein_g": [
+                30.0,
+                46.9349
+            ],
+            "ObesityStatus": [
+                4.0,
+                4.0
+            ],
+            "WeightChangeStatus": [
+                2.0,
+                2.0
+            ],
+            "WeightLossAmount": [
+                1.0,
+                1.0
+            ],
+            "WeightGainAmount": [
+                8.0,
+                8.0
+            ],
+            "DrinkingFrequency": [
+                1.4,
+                2.0
+            ],
+            "DrinkingAmount": [
+                1.0,
+                1.0
+            ],
+            "SmokingStatus": [
+                8.0,
+                8.0
+            ],
+            "VigorousActivity_Work": [
+                2.0,
+                2.0
+            ],
+            "VigorousActivity_Leisure": [
+                2.0,
+                2.0
+            ],
+            "ModerateActivity_Work": [
+                2.0,
+                2.0
+            ],
+            "WalkingActivity": [
+                2.0,
+                2.0
+            ],
+            "AerobicActivityRate": [
+                0.0,
+                0.0
+            ],
+            "BreakfastFrequency": [
+                1.0,
+                1.0
+            ],
+            "StressLevel": [
+                3.0,
+                3.0
+            ],
+            "StressAwarenessRate": [
+                0.0,
+                0.0
+            ],
+            "PersonalIncomeQuartile": [
+                1.0,
+                1.0
+            ],
+            "HouseholdIncomeQuartile": [
+                1.0,
+                1.0
+            ],
+            "EducationLevel": [
+                1.0,
+                1.0
+            ],
+            "HealthScreeningStatus": [
+                1.0,
+                1.0
+            ]
+        },
+        "llm_n_strict": 31,
+        "llm_n_lenient": 31,
+        "llm_missing_strict": []
+    }
+}

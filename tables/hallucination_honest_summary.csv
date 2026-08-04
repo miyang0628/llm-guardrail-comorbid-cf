@@ -1,0 +1,4 @@
+﻿Condition,V_energy,V_conflict,V_bmiwt,n_CF
+PureDiCE,4.2,31.2,8.3,48
+Guardrail_soft,2.1,42.6,8.5,47
+Guardrail_hard,0.0,0.0,0.0,47

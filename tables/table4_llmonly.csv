@@ -1,0 +1,6 @@
+﻿Condition,G1,G2,G3,G4
+PreGuardrail,91.7,39.6,68.8,75.0
+LLM_strict,91.5,44.7,66.0,72.3
+LLM_lenient,91.5,38.3,63.8,61.7
+HardRule,85.1,44.7,61.7,85.1
+Final,91.3,45.7,54.3,78.3

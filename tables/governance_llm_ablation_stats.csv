@@ -1,0 +1,17 @@
+﻿Comparison,Dim,A_pct,B_pct,Delta,p_value
+PreGuardrail_vs_Final,G1,91.3,91.3,0.0,1.0
+PreGuardrail_vs_Final,G2,41.3,45.7,4.3,0.823803
+PreGuardrail_vs_Final,G3,69.6,54.3,-15.2,0.143463
+PreGuardrail_vs_Final,G4,76.1,78.3,2.2,1.0
+HardRule_vs_Final,G1,87.0,91.3,4.3,0.5
+HardRule_vs_Final,G2,43.5,45.7,2.2,1.0
+HardRule_vs_Final,G3,60.9,54.3,-6.5,0.548828
+HardRule_vs_Final,G4,84.8,78.3,-6.5,0.453125
+LLM_strict_vs_Final,G1,91.3,91.3,0.0,1.0
+LLM_strict_vs_Final,G2,45.7,45.7,0.0,1.0
+LLM_strict_vs_Final,G3,65.2,54.3,-10.9,0.266846
+LLM_strict_vs_Final,G4,71.7,78.3,6.5,0.607239
+PreGuardrail_vs_HardRule,G1,91.5,85.1,-6.4,0.375
+PreGuardrail_vs_HardRule,G2,40.4,44.7,4.3,0.823803
+PreGuardrail_vs_HardRule,G3,68.1,61.7,-6.4,0.581055
+PreGuardrail_vs_HardRule,G4,74.5,85.1,10.6,0.332306
